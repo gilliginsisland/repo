@@ -1,5 +1,5 @@
-Origin: https://packagecloud.io/gilliginsisland/stable
-Label: stable
+Origin: gilliginsisland
+Label: ubuntu
 Date: Tue, 01 Nov 2016 17:14:27 +0000
 Suite: xenial
 Codename: xenial
