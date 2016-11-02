@@ -1,8 +1,8 @@
 Origin: gilliginsisland
-Label: ubuntu
+Label: stable
 Date: Tue, 01 Nov 2016 17:14:27 +0000
-Suite: xenial
-Codename: xenial
+Suite: ubuntu
+Codename: ubuntu
 Version: 1
 Components: main
 Architectures: amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64
