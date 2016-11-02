@@ -4,5 +4,5 @@ Suite: ubuntu
 Codename: ubuntu
 Version: 1
 Components: main
-Architectures: amd64 i386
+Architectures: amd64, i386
 Description: Gilliginsisland Repository. Welcome to the island, be carefull!!
