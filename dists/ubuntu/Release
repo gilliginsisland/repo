@@ -5,5 +5,5 @@ Suite: ubuntu
 Codename: ubuntu
 Version: 1
 Components: main
-Architectures: amd64 armel armhf i386 ia64 mips mipsel powerpc ppc64el s390 s390x sparc alpha avr32 hppa m32 m68k sh arm64
+Architectures:
 Description:
