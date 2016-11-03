@@ -26,3 +26,4 @@ for dist in conf["dists"]:
 			archdir = os.path.join(dist['name'], component, 'binary-' + arch)
 			mkdirp(archdir)
 			packages = scanpackages(repo, dist, component, arch)
+			print(packages)
