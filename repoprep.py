@@ -33,12 +33,6 @@ def scanpackages(repo, dist, component, architectures):
 		with gzip.open(os.path.join(packagespath, 'Packages.gz'), 'w') as f:
 			f.write(packages)
 
-		## return hash map of Packages.gz path and hash
-
-		return {
-			""
-		}
-
 def gethashes(file):
 	md5 = hashlib.md5()
 	sha1 = hashlib.sha1()
