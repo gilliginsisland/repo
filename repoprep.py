@@ -22,6 +22,8 @@ def mkdirp(directory):
 		os.makedirs(directory)
 
 def scanpackages(repo, dist, component, architectures):
+	packagesgzs = {}
+
 	for arch in architectures:
 		## call dpkg-scanpackages to get package lists
 		dpkgargs = [
@@ -42,7 +44,7 @@ def scanpackages(repo, dist, component, architectures):
 			f.write(packages)
 
 		## hashes
-
+		packagesgzs[packagesgz] = gethashes(packagesgz)
 
 def gethashes(file):
 	hashes = {}
