@@ -1,6 +1,7 @@
 {
 	"origin": "Gilliginsisland",
 	"label": "Gilliginsisland Repository",
+	"description": "Welcome to the island, be carefull!!",
 	"dists": [{
 		"name": "ubuntu",
 		"components": [
