@@ -37,7 +37,6 @@ body:before {
 	display: inline-block;
 	vertical-align: middle;
 	width: 640px;
-	margin: 0 auto;
 	background: #DEDEDE;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
