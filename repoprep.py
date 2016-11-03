@@ -5,7 +5,7 @@ repopath = os.path.dirname(sys.argv[0])
 with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
 	conf = json.load(f)
 
-for dist in conf["dists"]:
-	a = dist
+distsdir = os.path.join(repopath,'dists')
 
-print(a)
+for dist in conf["dists"]:
+	 = dist
