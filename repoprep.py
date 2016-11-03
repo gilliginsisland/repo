@@ -22,7 +22,7 @@ def mkdirp(directory):
 		os.makedirs(directory)
 
 def scanpackages(repo, dist, component, architectures):
-	packagesgzs = {}
+	indexes = []
 
 	for arch in architectures:
 		## call dpkg-scanpackages to get package lists
@@ -42,9 +42,7 @@ def scanpackages(repo, dist, component, architectures):
 		packagesgz = os.path.join(packagespath, 'Packages.gz')
 		with gzip.open(packagesgz, 'w') as f:
 			f.write(packages)
-
-		## hashes
-		packagesgzs[packagesgz] = gethashes(packagesgz)
+			indexes[packagesgz]
 
 	return packagesgzs
 
