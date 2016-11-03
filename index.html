@@ -19,13 +19,11 @@
 		<section>
 			<h2>Welcome to Gilliginsisland's ubuntu repository!</h2>
 			<p>Import the apt signing key to your keyring</p>
-			<pre>
-				<code>
-					wget -qO - http://apt.broochian.com/archive.key | sudo apt-key add -
-					echo 'deb [allow-insecure=yes] http://apt.broochian.com ubuntu main' | sudo tee /etc/apt/sources.list.d/gilliginsisland.list
-					apt update
-				</code>
-			</pre>
+			<code>
+				wget -qO - http://apt.broochian.com/archive.key | sudo apt-key add -
+				echo 'deb [allow-insecure=yes] http://apt.broochian.com ubuntu main' | sudo tee /etc/apt/sources.list.d/gilliginsisland.list
+				apt update
+			</code>
 			<p>That's it! You can now install any packages from this repository.</p>
 		</section>
 	</div>
