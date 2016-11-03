@@ -18,8 +18,6 @@ repopath = os.path.dirname(sys.argv[0])
 with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
 	conf = json.load(f)
 
-distsdir = os.path.join(repopath,'dists')
-
 for dist in conf["dists"]:
 	for component in dist["components"]:
 		for arch in dist['architectures']:
