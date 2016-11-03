@@ -42,7 +42,7 @@ def scanpackages(repo, dist, component, architectures):
 			subprocess.Popen(dpkgargs, cwd=repo, stdout=f)
 			indexes.append(index)
 
-	return packagesgzs
+	return indexes
 
 def gethashes(file):
 	hashes = {}
