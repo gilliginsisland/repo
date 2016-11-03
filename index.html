@@ -17,14 +17,15 @@
 			<h1>Gilliginsisland Repository</h1>
 		</header>
 		<section>
-			<dl>
-				<dt><p>Import the apt signing key to your keyring</p></dt>
-				<pre><code><dd>wget -qO - http://apt.broochian.com/archive.key | sudo apt-key add -</dd></code></pre>
-				<dt><p>Add the repository your sources</p></dt>
-				<pre><code><dd>echo 'deb [allow-insecure=yes] http://apt.broochian.com ubuntu main' | sudo tee /etc/apt/sources.list.d/gilliginsisland.list</dd></code></pre>
-				<dt><p>And lastly update your package listings</p></dt>
-				<pre><code><dd>apt update</dd></code></pre>
-			</dl>
+			<h2>Welcome to Gilliginsisland's ubuntu repository!</h2>
+			<p>Import the apt signing key to your keyring</p>
+			<pre>
+				<code>
+					wget -qO - http://apt.broochian.com/archive.key | sudo apt-key add -
+					echo 'deb [allow-insecure=yes] http://apt.broochian.com ubuntu main' | sudo tee /etc/apt/sources.list.d/gilliginsisland.list
+					apt update
+				</code>
+			</pre>
 			<p>That's it! You can now install any packages from this repository.</p>
 		</section>
 	</div>
