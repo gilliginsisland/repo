@@ -12,8 +12,7 @@ def scanpackages(repo, dist, component, arch):
 		arch,
 		os.path.join('pool', dist, component)
 	]
-	packages = subprocess.check_output(dpkgargs, cwd=repo)
-	return packages
+	return subprocess.check_output(dpkgargs, cwd=repo)
 
 repopath = os.path.dirname(sys.argv[0])
 with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
@@ -26,3 +25,4 @@ for dist in conf["dists"]:
 		for arch in dist['architectures']:
 			archdir = os.path.join(dist['name'], component, 'binary-' + arch)
 			mkdirp(archdir)
+			packages = scanpackages(repo, dist, component, arch)
