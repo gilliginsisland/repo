@@ -38,4 +38,14 @@ def scanpackages(repo, dist, component, architectures):
 		return {
 			""
 		}
+
+def gethashes(file):
+	md5 = hashlib.md5()
+	sha1 = hashlib.sha1()
+
+	with open(file, 'rb') as f:
+		for data in iter(lambda: f.read(65536), ''):
+			md5.update(data)
+			sha1.update(data)
+
 main()
