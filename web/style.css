@@ -240,26 +240,6 @@ li pre {
 	padding-left: 60px;
 }
 
-table {
-	width: 100%;
-	border-collapse: collapse;
-}
-
-th, td {
-	text-align: left;
-	padding: 5px 10px;
-	border-bottom: 1px solid #aaa;
-}
-
-dt {
-	color: #222;
-	font-weight: 700;
-}
-
-th {
-	color: #222;
-}
-
 small {
 	font-size: 11px;
 }
