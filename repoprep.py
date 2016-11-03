@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import sys, os, json, subprocess
+import sys, os, json, subprocess, gzip
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
@@ -20,6 +20,9 @@ def scanpackages(repo, dist, component, architectures):
 		packagespath = os.path.join(repo, dist, component, 'binary-' + arch)
 		mkdirp(archdir)
 
+		## write Packages.gz
+		with gzip.open(os.path.join(packagespath, 'Packages.gz')) as f:
+			f.write(packages)
 
 repopath = os.path.dirname(sys.argv[0])
 with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
