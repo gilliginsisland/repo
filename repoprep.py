@@ -1,11 +1,12 @@
 #!/usr/bin/env python
-import sys, os, json
+import sys, os, json, subprocess
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
 		os.makedirs(directory)
 
-def
+def scanpackages(dist, component, arch):
+
 
 repopath = os.path.dirname(sys.argv[0])
 with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
