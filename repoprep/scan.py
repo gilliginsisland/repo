@@ -7,8 +7,10 @@ hashetypes = OrderedDict([('MD5Sum', 'md5'), ('SHA1', 'sha1'), ('SHA256', 'sha25
 def main():
 	indexes = []
 
-	repopath = os.path.dirname(sys.argv[0])
-	with open(os.path.join(repopath, 'config.json'), 'r') as f:
+	configpath = os.path.dirname(sys.argv[0])
+	repopath = os.path.dirname(configpath)
+
+	with open(os.path.join(configpath, 'config.json'), 'r') as f:
 		conf = json.load(f)
 
 	for dist in conf["dists"]:
