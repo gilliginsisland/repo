@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import sys, os, json, subprocess, gzip
+import sys, os, json, subprocess, gzip, hashlib
 
 def main():
 	repopath = os.path.dirname(sys.argv[0])
@@ -33,4 +33,9 @@ def scanpackages(repo, dist, component, architectures):
 		with gzip.open(os.path.join(packagespath, 'Packages.gz'), 'w') as f:
 			f.write(packages)
 
+		## return hash map of Packages.gz path and hash
+
+		return {
+			""
+		}
 main()
