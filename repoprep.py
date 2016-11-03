@@ -32,6 +32,7 @@ def scanpackages(repo, dist, component, architectures):
 			arch,
 			os.path.join('pool', dist, component)
 		]
+
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
 
 		## make directory to save the packages file in
