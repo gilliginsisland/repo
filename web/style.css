@@ -14,7 +14,6 @@ html {
 html, body {
 	height: 100%;
 	width: 100%;
-	padding: 0;
 	margin: 0;
 }
 
@@ -43,7 +42,6 @@ body:before {
 	vertical-align: middle;
 	width: 656px;
 	max-width: 100%;
-	margin: 16px;
 	background: #DEDEDE;
 	border-radius: 8px;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
