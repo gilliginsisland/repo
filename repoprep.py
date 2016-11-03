@@ -13,6 +13,7 @@ distsdir = os.path.join(repopath,'dists')
 
 for dist in conf["dists"]:
 	distdir = os.path.join(distsdir, dist['name'])
-	for arch in dist['architectures']:
-		archdir = os.path.join(distdir, 'binary-' + arch)
-		mkdirp(archdir)
+	for component in dist["component"]:
+		for arch in dist['architectures']:
+			archdir = os.path.join(distdir, component, arch, 'binary-' + arch)
+			mkdirp(archdir)
