@@ -77,7 +77,7 @@ def scanpackages(repo, dist, component, architectures):
 	return indexes
 
 def gethashes(file):
-	hashes = {}
+	hashes = OrderedDict()
 
 	for hashetype, func in hashetypes.items():
 		hashes[hashetype] = getattr(hashlib, func)()
