@@ -26,7 +26,7 @@ def scanpackages(repo, dist, component, architectures):
 	for arch in architectures:
 		## make directory to save the packages file in
 		index = os.path.join(repo, 'dists', dist, component, 'binary-' + arch, 'Packages.gz')
-		mkdirp(os.path.dirname(packagespath))
+		mkdirp(os.path.dirname(index))
 
 		## call dpkg-scanpackages to get package lists
 		dpkgargs = [
