@@ -37,8 +37,12 @@ def scanpackages(repo, dist, component, architectures):
 		mkdirp(packagespath)
 
 		## write Packages.gz
-		with gzip.open(os.path.join(packagespath, 'Packages.gz'), 'w') as f:
+		packagesgz = os.path.join(packagespath, 'Packages.gz')
+		with gzip.open(packagesgz, 'w') as f:
 			f.write(packages)
+
+		## hashes
+
 
 def gethashes(file):
 	hashes = {}
