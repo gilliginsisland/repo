@@ -171,11 +171,6 @@ section {
 	font-size: 15px;
 	border-top: 1px solid #fff;
 	background: linear-gradient(#fafafa, #dedede 700px);
-	-moz-border-radius: 0 0 8px 8px;
-	-webkit-border-radius: 0 0 8px 8px;
-	-o-border-radius: 0 0 8px 8px;
-	-ms-border-radius: 0 0 8px 8px;
-	-khtml-border-radius: 0 0 8px 8px;
 	border-radius: 0 0 8px 8px;
 	position: relative;
 }
