@@ -11,8 +11,10 @@ def main():
 	with open(os.path.join(configpath, 'config.json'), 'r') as f:
 		conf = json.load(f)
 
-	indexes = []
 	for dist in conf["dists"]:
+		## holds indexes for distribution
+		indexes = []
+
 		## generate the packages file for each component
 		for component in dist["components"]:
 			indexes.extend(scanpackages(repopath, dist['name'], component, dist['architectures']))
