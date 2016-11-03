@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys, os, json, subprocess, gzip, hashlib
+from collections import OrderedDict
 
 hashetypes = {'MD5Sum': 'md5', 'SHA1': 'sha1', 'SHA256': 'sha256', 'SHA512': 'sha512'}
 
@@ -24,15 +25,15 @@ def main():
 			indexes[i] = info
 
 		## generate the release data
-		releasedata = {
-			'Origin': conf['origin'],
-			'Label': conf['label'],
-			'Description': conf['description'],
-			'Suite': dist['name'],
-			'Codename': dist['name'],
-			'Architectures': ' '.join(dist['architectures']),
-			'Components': ' '.join(dist['components']),
-		}
+		releasedata = OrderedDict([
+			('Origin', conf['origin']),
+			('Label', conf['label']),
+			('Description', conf['description']),
+			('Suite', dist['name']),
+			('Codename', dist['name']),
+			('Architectures', ' '.join(dist['architectures'])),
+			('Components', ' '.join(dist['components'])),
+		])
 
 		for hashetype in hashetypes:
 			lines = []
