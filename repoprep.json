@@ -8,6 +8,8 @@
 			"main"
 		],
 		"architectures": [
+			"i386",
+			"amd64",
 			"all"
 		]
 	}]
