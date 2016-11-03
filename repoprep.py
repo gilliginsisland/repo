@@ -23,7 +23,7 @@ distsdir = os.path.join(repopath,'dists')
 for dist in conf["dists"]:
 	for component in dist["components"]:
 		for arch in dist['architectures']:
-			archdir = os.path.join(dist['name'], component, 'binary-' + arch)
+			archdir = os.path.join(repo, dist['name'], component, 'binary-' + arch)
 			mkdirp(archdir)
 			packages = scanpackages(repo, dist, component, arch)
 			print(packages)
