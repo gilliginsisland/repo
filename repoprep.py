@@ -21,9 +21,6 @@ def mkdirp(directory):
 	if not os.path.isdir(directory):
 		os.makedirs(directory)
 
-def packagespath(repo, dist, component, arch):
-	return os.path.join(repo, 'dists', dist, component, 'binary-' + arch)
-
 def scanpackages(repo, dist, component, architectures):
 	for arch in architectures:
 		## call dpkg-scanpackages to get package lists
@@ -36,7 +33,7 @@ def scanpackages(repo, dist, component, architectures):
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
 
 		## make directory to save the packages file in
-		packagespath = packagespath(repo, dist, component, arch)
+		packagespath = os.path.join(repo, 'dists', dist, component, 'binary-' + arch)
 		mkdirp(packagespath)
 
 		## write Packages.gz
@@ -53,7 +50,7 @@ def gethashes(file):
 			sha1.update(data)
 
 	return {
-		'md5': md5,
+		'MD5Sum': md5,
 		'sha1': sha1,
 	}
 
