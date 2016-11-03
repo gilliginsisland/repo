@@ -27,7 +27,7 @@ def scanpackages(repo, dist, component, architectures):
 
 		## make directory to save the packages file in
 		packagespath = os.path.join(repo, dist, component, 'binary-' + arch)
-		mkdirp(archdir)
+		mkdirp(packagespath)
 
 		## write Packages.gz
 		with gzip.open(os.path.join(packagespath, 'Packages.gz')) as f:
