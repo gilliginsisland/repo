@@ -44,7 +44,6 @@ def gethashes(file):
 	md5 = hashlib.md5()
 	sha1 = hashlib.sha1()
 	sha256 = hashlib.sha256()
-	sha1 = hashlib.sha1()
 
 	with open(file, 'rb') as f:
 		for data in iter(lambda: f.read(65536), ''):
