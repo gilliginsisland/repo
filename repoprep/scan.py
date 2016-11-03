@@ -36,7 +36,7 @@ def main():
 			('Codename', dist['name']),
 			('Architectures', ' '.join(dist['architectures'])),
 			('Components', ' '.join(dist['components'])),
-			('Date', datetime.datetime.now().strftime('%a, %d %b %Y %H:%M:%S %Z')),
+			('Date', datetime.datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S %Z')),
 		])
 
 		for hashetype in hashetypes:
