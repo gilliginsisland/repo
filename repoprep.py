@@ -32,3 +32,5 @@ def scanpackages(repo, dist, component, architectures):
 		## write Packages.gz
 		with gzip.open(os.path.join(packagespath, 'Packages.gz')) as f:
 			f.write(packages)
+
+main()
