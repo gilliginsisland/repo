@@ -1,0 +1,15 @@
+{
+	"origin": "Gilliginsisland",
+	"label": "Gilliginsisland Repository",
+	"dists": [{
+		"name": "ubuntu",
+		"components": [
+			"main"
+		],
+		"architectures": [
+			"i386",
+			"amd64",
+			"all"
+		]
+	}],
+	"suite": "ubuntu",
