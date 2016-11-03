@@ -1,8 +1,23 @@
-Origin: gilliginsisland
+Origin: Gilliginsisland
+SHA1: 
+  1094a1a59491510c32d249e78f3ab373bc5eedff 332 main/binary-i386/Packages.gz
+  acf29afee4330b1bce952f1338bccb13f73466ed 606 main/binary-amd64/Packages.gz
+  ab4feccacb0450414ccc294562b1e584ebbd5647 332 main/binary-all/Packages.gz
+Description: Welcome to the island, be carefull!!
+MD5Sum: 
+  489622b8abc626c75e9aa91701c04d29 332 main/binary-i386/Packages.gz
+  c6fb045594754af5c359a5e4d2f9667c 606 main/binary-amd64/Packages.gz
+  10a617367c908937638f6a4434d1c8fa 332 main/binary-all/Packages.gz
 Label: Gilliginsisland Repository
+Architectures: i386 amd64 all
+Components: main
 Suite: ubuntu
 Codename: ubuntu
-Version: 1
-Components: main
-Architectures: i386 amd64 all
-Description: Welcome to the island, be carefull!!
+SHA256: 
+  991b932655069c5bb435b82408587db16dd4ee864e0a9eb9f803506279211a73 332 main/binary-i386/Packages.gz
+  8be7f4c275ea1e9a8222a33c888c192980f4a4546ca89d75be25535a4426f742 606 main/binary-amd64/Packages.gz
+  3ad04746c04e5b17e018aab66b0e9fa679d7409314aa2a776cb797cd181deea7 332 main/binary-all/Packages.gz
+SHA512: 
+  f7d8c21afa23cfc541adf3d3c11f75c29ef0e611ffe3d643105386a504cd8f5d6df21e60178562dc5e1e06767ac48b560c566715e8572f240287a1bd640b814b 332 main/binary-i386/Packages.gz
+  0e31b6af54b9ec256d6f83284b3bad893dea724b2fe7cd0824d37406268f9130ffe32594895d2f9ed9982fa4243cd9a7036b0b1319e1d1c630283b381876413d 606 main/binary-amd64/Packages.gz
+  68cfa246ec5e989266ac3899337ba7e207dec7c1c1ea1ab80ffb025a9148fe528f01ad16bddc91eae8caf42c23eda9931b24ce596fb9491b7ffd5ea20950b7ba 332 main/binary-all/Packages.gz

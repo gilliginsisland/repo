@@ -1,20 +1,50 @@
 #!/usr/bin/env python
 import sys, os, json, subprocess, gzip, hashlib
 
+hashetypes = {'MD5Sum': 'md5', 'SHA1': 'sha1', 'SHA256': 'sha256', 'SHA512': 'sha512'}
+
 def main():
+	indexes = []
+
 	repopath = os.path.dirname(sys.argv[0])
 	with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
 		conf = json.load(f)
 
 	for dist in conf["dists"]:
-		## hashes for each file
-		hashes = {}
-
 		## generate the packages file for each component
 		for component in dist["components"]:
-			indexes = scanpackages(repopath, dist['name'], component, dist['architectures'])
+			indexes.extend(scanpackages(repopath, dist['name'], component, dist['architectures']))
+
+		## get extra info for indexes
+		indexprefix = os.path.join(repopath, 'dists', dist['name'])
+		for i, index in enumerate(indexes):
+			info = gethashes(index)
+			info['size'] = os.path.getsize(index)
+			info['name'] = index[len(indexprefix)+1:]
+			indexes[i] = info
+
+		## generate the release data
+		releasedata = {
+			'Origin': conf['origin'],
+			'Label': conf['label'],
+			'Description': conf['description'],
+			'Suite': dist['name'],
+			'Codename': dist['name'],
+			'Architectures': ' '.join(dist['architectures']),
+			'Components': ' '.join(dist['components']),
+		}
+
+		for hashetype in hashetypes:
+			lines = []
+			for index in indexes:
+				lines.append('\n  %s %s %s' % (index[hashetype], index['size'], index['name']))
+			releasedata[hashetype] = ''.join(lines)
 
 		## write the release file
+		release = os.path.join(repopath, 'dists', dist['name'], 'Release')
+		with open(release, 'w') as f:
+			for key, value in releasedata.items():
+				f.write('%s: %s\n' % (key, value))
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
@@ -37,23 +67,27 @@ def scanpackages(repo, dist, component, architectures):
 		]
 
 		## write Packages.gz
-		with gzip.open(index, 'wb') as f:
-			subprocess.Popen(dpkgargs, cwd=repo, stdout=f).wait()
+		with gzip.open(index, 'w') as f:
+			scanner = subprocess.Popen(dpkgargs, cwd=repo, stdout=subprocess.PIPE)
+			for line in iter(scanner.stdout.readline, ''):
+				f.write(line)
 			indexes.append(index)
 
 	return indexes
 
 def gethashes(file):
 	hashes = {}
-	hashetypes = ['md5', 'sha1', 'sha256', 'sha512']
 
-	for hashetype in hashetypes:
-		hashes[hashetype] = getattr(hashlib, hashetype)()
+	for hashetype, func in hashetypes.items():
+		hashes[hashetype] = getattr(hashlib, func)()
 
 	with open(file, 'rb') as f:
 		for data in iter(lambda: f.read(65536), ''):
-			md5.update(data)
-			sha1.update(data)
+			for hashetype in hashetypes:
+				getattr(hashes[hashetype], 'update')(data)
+
+		for hashetype in hashetypes:
+			hashes[hashetype] = getattr(hashes[hashetype], 'hexdigest')()
 
 	return hashes
 
