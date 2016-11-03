@@ -35,14 +35,13 @@ def scanpackages(repo, dist, component, architectures):
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
 
 		## make directory to save the packages file in
-		packagespath = os.path.join(repo, 'dists', dist, component, 'binary-' + arch)
-		mkdirp(packagespath)
+		index = os.path.join(repo, 'dists', dist, component, 'binary-' + arch, 'Packages.gz')
+		mkdirp(os.path.dirname(packagespath))
 
 		## write Packages.gz
-		packagesgz = os.path.join(packagespath, 'Packages.gz')
-		with gzip.open(packagesgz, 'w') as f:
+		with gzip.open(index, 'w') as f:
 			f.write(packages)
-			indexes[packagesgz]
+			indexes.append(index)
 
 	return packagesgzs
 
