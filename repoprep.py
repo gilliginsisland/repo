@@ -45,23 +45,13 @@ def gethashes(file):
 	hashetypes = ['md5', 'sha1', 'sha256', 'sha512']
 
 	for hashetype in hashetypes:
-		hashes[hashetype] = getattr(hashlib, hashetype)
-
-	md5 = hashlib.md5()
-	sha1 = hashlib.sha1()
-	sha256 = hashlib.sha256()
-	sha512 = hashlib.sha512()
+		hashes[hashetype] = getattr(hashlib, hashetype)()
 
 	with open(file, 'rb') as f:
 		for data in iter(lambda: f.read(65536), ''):
 			md5.update(data)
 			sha1.update(data)
 
-	return {
-		'MD5Sum': md5,
-		'SHA1': sha1,
-		'SHA256': sha256,
-		'SHA512': sha512,
-	}
+	return hashes
 
 main()
