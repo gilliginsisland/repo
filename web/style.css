@@ -42,7 +42,7 @@ body:before {
 	display: inline-block;
 	vertical-align: middle;
 	width: 656px;
-	max-width: 100&;
+	max-width: 100%;
 	margin: 16px;
 	background: #DEDEDE;
 	border-radius: 8px;
