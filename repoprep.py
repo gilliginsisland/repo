@@ -48,4 +48,9 @@ def gethashes(file):
 			md5.update(data)
 			sha1.update(data)
 
+	return {
+		'md5': md5,
+		'sha1': sha1,
+	}
+
 main()
