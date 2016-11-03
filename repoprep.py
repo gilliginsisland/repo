@@ -46,6 +46,8 @@ def scanpackages(repo, dist, component, architectures):
 		## hashes
 		packagesgzs[packagesgz] = gethashes(packagesgz)
 
+	return packagesgzs
+
 def gethashes(file):
 	hashes = {}
 	hashetypes = ['md5', 'sha1', 'sha256', 'sha512']
