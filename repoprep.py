@@ -26,7 +26,7 @@ def scanpackages(repo, dist, component, architectures):
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
 
 		## make directory to save the packages file in
-		packagespath = os.path.join(repo, dist, component, 'binary-' + arch)
+		packagespath = os.path.join(repo, 'dists', dist, component, 'binary-' + arch)
 		mkdirp(packagespath)
 
 		## write Packages.gz
