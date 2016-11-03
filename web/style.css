@@ -5,6 +5,7 @@
 }
 
 html {
+	padding: 0;
 	box-sizing: border-box;
 	overflow: hidden;
 	background: #6C7989;
@@ -14,11 +15,11 @@ html {
 html, body {
 	height: 100%;
 	width: 100%;
-	padding: 8px;
 	margin: 0;
 }
 
 body {
+	padding: 8px;
 	font-size: 0;
 	overflow: auto;
 	white-space: nowrap;
