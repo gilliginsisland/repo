@@ -25,6 +25,10 @@ def scanpackages(repo, dist, component, architectures):
 	indexes = []
 
 	for arch in architectures:
+		## make directory to save the packages file in
+		index = os.path.join(repo, 'dists', dist, component, 'binary-' + arch, 'Packages.gz')
+		mkdirp(os.path.dirname(packagespath))
+
 		## call dpkg-scanpackages to get package lists
 		dpkgargs = [
 			'dpkg-scanpackages',
@@ -34,10 +38,6 @@ def scanpackages(repo, dist, component, architectures):
 		]
 
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
-
-		## make directory to save the packages file in
-		index = os.path.join(repo, 'dists', dist, component, 'binary-' + arch, 'Packages.gz')
-		mkdirp(os.path.dirname(packagespath))
 
 		## write Packages.gz
 		with gzip.open(index, 'w') as f:
