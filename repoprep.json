@@ -9,7 +9,8 @@
 		],
 		"architectures": [
 			"i386",
-			"amd64"
+			"amd64",
+			"all"
 		]
 	}]
 }
