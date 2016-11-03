@@ -291,15 +291,7 @@ footer p + p {
 	}
 
 	.wrapper {
-		-moz-border-radius: 0;
-		-webkit-border-radius: 0;
-		-o-border-radius: 0;
-		-ms-border-radius: 0;
-		-khtml-border-radius: 0;
 		border-radius: 0;
-		-moz-box-shadow: none;
-		-webkit-box-shadow: none;
-		-o-box-shadow: none;
 		box-shadow: none;
 		width: 100%;
 	}
