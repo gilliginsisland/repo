@@ -1,6 +1,15 @@
 #!/usr/bin/env python
 import sys, os, json, subprocess, gzip
 
+def main():
+	repopath = os.path.dirname(sys.argv[0])
+	with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
+		conf = json.load(f)
+
+	for dist in conf["dists"]:
+		for component in dist["components"]:
+			scanpackages(repopath, dist['name'], component, dist['architectures'])
+
 def mkdirp(directory):
 	if not os.path.isdir(directory):
 		os.makedirs(directory)
@@ -23,12 +32,3 @@ def scanpackages(repo, dist, component, architectures):
 		## write Packages.gz
 		with gzip.open(os.path.join(packagespath, 'Packages.gz')) as f:
 			f.write(packages)
-
-def main():
-	repopath = os.path.dirname(sys.argv[0])
-	with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
-		conf = json.load(f)
-
-	for dist in conf["dists"]:
-		for component in dist["components"]:
-			scanpackages(repopath, dist['name'], component, dist['architectures'])
