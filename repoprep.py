@@ -6,4 +6,6 @@ with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
 	conf = json.load(f)
 
 for dist in conf["dists"]:
-	print(dist)
+	a = dist
+
+print(a)
