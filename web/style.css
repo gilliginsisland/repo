@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-	padding: 8px;
+	padding: 16px;
 	font-size: 0;
 	overflow: auto;
 	white-space: nowrap;
