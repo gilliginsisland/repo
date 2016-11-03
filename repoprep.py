@@ -24,10 +24,11 @@ def scanpackages(repo, dist, component, architectures):
 		with gzip.open(os.path.join(packagespath, 'Packages.gz')) as f:
 			f.write(packages)
 
-repopath = os.path.dirname(sys.argv[0])
-with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
-	conf = json.load(f)
+def main():
+	repopath = os.path.dirname(sys.argv[0])
+	with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
+		conf = json.load(f)
 
-for dist in conf["dists"]:
-	for component in dist["components"]:
-		scanpackages(repopath, dist['name'], component, dist['architectures'])
+	for dist in conf["dists"]:
+		for component in dist["components"]:
+			scanpackages(repopath, dist['name'], component, dist['architectures'])
