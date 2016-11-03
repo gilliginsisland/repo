@@ -41,6 +41,12 @@ def scanpackages(repo, dist, component, architectures):
 			f.write(packages)
 
 def gethashes(file):
+	hashes = {}
+	hashetypes = ['md5', 'sha1', 'sha256', 'sha512']
+
+	for hashetype in hashetypes:
+		hashes[hashetype] = getattr(hashlib, hashetype)
+
 	md5 = hashlib.md5()
 	sha1 = hashlib.sha1()
 	sha256 = hashlib.sha256()
@@ -54,6 +60,8 @@ def gethashes(file):
 	return {
 		'MD5Sum': md5,
 		'SHA1': sha1,
+		'SHA256': sha256,
+		'SHA512': sha512,
 	}
 
 main()
