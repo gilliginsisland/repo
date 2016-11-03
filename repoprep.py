@@ -13,6 +13,7 @@ def scanpackages(repo, dist, component, arch):
 		os.path.join('pool', dist, component)
 	]
 	packages = subprocess.check_output(dpkgargs, cwd=repo)
+	return packages
 
 repopath = os.path.dirname(sys.argv[0])
 with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
