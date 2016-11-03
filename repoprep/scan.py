@@ -5,14 +5,13 @@ from collections import OrderedDict
 hashetypes = OrderedDict([('MD5Sum', 'md5'), ('SHA1', 'sha1'), ('SHA256', 'sha256'), ('SHA512', 'sha512')])
 
 def main():
-	indexes = []
-
 	configpath = os.path.dirname(sys.argv[0])
 	repopath = os.path.dirname(configpath)
 
 	with open(os.path.join(configpath, 'config.json'), 'r') as f:
 		conf = json.load(f)
 
+	indexes = []
 	for dist in conf["dists"]:
 		## generate the packages file for each component
 		for component in dist["components"]:
