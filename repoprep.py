@@ -12,8 +12,7 @@ def main():
 
 		## generate the packages file for each component
 		for component in dist["components"]:
-			scanpackages(repopath, dist['name'], component, dist['architectures'])
-			hashes[]
+			indexes = scanpackages(repopath, dist['name'], component, dist['architectures'])
 
 		## write the release file
 
