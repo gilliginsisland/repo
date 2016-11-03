@@ -314,10 +314,6 @@ footer p + p {
 		display: none;
 	}
 
-	header p.view {
-		display: block;
-	}
-
 	header p {
 		width: 100%;
 	}
