@@ -21,7 +21,7 @@ with open(os.path.join(repopath,'repoprep.json'), 'r') as f:
 for dist in conf["dists"]:
 	for component in dist["components"]:
 		for arch in dist['architectures']:
-			archdir = os.path.join(repo, dist['name'], component, 'binary-' + arch)
+			archdir = os.path.join(repopath, dist['name'], component, 'binary-' + arch)
 			mkdirp(archdir)
-			packages = scanpackages(repo, dist, component, arch)
+			packages = scanpackages(repopath, dist, component, arch)
 			print(packages)
