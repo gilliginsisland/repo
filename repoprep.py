@@ -37,11 +37,9 @@ def scanpackages(repo, dist, component, architectures):
 			os.path.join('pool', dist, component)
 		]
 
-		packages = subprocess.check_output(dpkgargs, cwd=repo)
-
 		## write Packages.gz
 		with gzip.open(index, 'w') as f:
-			f.write(packages)
+			subprocess.Popen(dpkgargs, cwd=repo, stdout=f)
 			indexes.append(index)
 
 	return packagesgzs
