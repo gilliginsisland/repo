@@ -30,7 +30,7 @@ def scanpackages(repo, dist, component, architectures):
 		mkdirp(packagespath)
 
 		## write Packages.gz
-		with gzip.open(os.path.join(packagespath, 'Packages.gz')) as f:
+		with gzip.open(os.path.join(packagespath, 'Packages.gz'), 'w') as f:
 			f.write(packages)
 
 main()
