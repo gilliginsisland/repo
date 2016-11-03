@@ -7,12 +7,22 @@ def main():
 		conf = json.load(f)
 
 	for dist in conf["dists"]:
+		## hashes for each file
+		hashes = {}
+
+		## generate the packages file for each component
 		for component in dist["components"]:
 			scanpackages(repopath, dist['name'], component, dist['architectures'])
+			hashes[]
+
+		## write the release file
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
 		os.makedirs(directory)
+
+def packagespath(repo, dist, component, arch):
+	return os.path.join(repo, 'dists', dist, component, 'binary-' + arch)
 
 def scanpackages(repo, dist, component, architectures):
 	for arch in architectures:
@@ -26,7 +36,7 @@ def scanpackages(repo, dist, component, architectures):
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
 
 		## make directory to save the packages file in
-		packagespath = os.path.join(repo, 'dists', dist, component, 'binary-' + arch)
+		packagespath = packagespath(repo, dist, component, arch)
 		mkdirp(packagespath)
 
 		## write Packages.gz
