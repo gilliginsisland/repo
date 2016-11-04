@@ -84,8 +84,8 @@ def scanpackages(repo, dist, component, architectures):
 		]
 
 		## write Packages.gz
-		with open(os.devnull) as n, gzip.open(index, 'w') as f:
-			scanner = subprocess.Popen(dpkgargs, cwd=repo, stderr=n, stdout=subprocess.PIPE)
+		with gzip.open(index, 'w') as f:
+			scanner = subprocess.Popen(dpkgargs, cwd=repo, stdout=subprocess.PIPE)
 			for line in iter(scanner.stdout.readline, ''):
 				f.write(line)
 			indexes.append(index)
