@@ -52,6 +52,7 @@ def main():
 				f.write('%s: %s\n' % (key, value))
 		signrelease(release)
 
+## creates a signed release from the release
 def signrelease(release):
 	releasedir = os.path.dirname(release)
 
