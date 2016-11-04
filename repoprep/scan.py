@@ -50,6 +50,18 @@ def main():
 		with open(release, 'w') as f:
 			for key, value in releasedata.items():
 				f.write('%s: %s\n' % (key, value))
+		signrelease(release)
+
+def signrelease(release):
+	releasedir = os.path.dirname(release)
+	gpgargs = [
+		'gpg',
+		'--clearsign',
+		'-o'
+		os.path.join(releasedir, 'InRelease')
+	]
+	with open(release + '.gpg') as f:
+
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
