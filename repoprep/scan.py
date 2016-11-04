@@ -61,7 +61,7 @@ def signrelease(release):
 		'InRelease',
 		'Release',
 	]
-	subprocess.Popen(dpkgargs, cwd=releasedir)
+	subprocess.Popen(gpgargs, cwd=releasedir)
 
 
 def mkdirp(directory):
