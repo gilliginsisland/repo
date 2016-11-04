@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
 	<title>Gilliginsisland Apt Repository</title>
 	<link rel="stylesheet" href="web/style.css">
-	<script src="//raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script>
+	<!-- <script src="//raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js"></script> -->
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1, user-scalable=no">
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,16 +14,19 @@
 <body>
 	<div class="wrapper">
 		<header>
-			<h1>Gilliginsisland Repository</h1>
+			<h1>Welcome to Gilliginsisland Repository!</h1>
 		</header>
 		<section>
-			<p><strong>Welcome to Gilliginsisland's ubuntu repository!</strong></p>
-			<p>To start downloading software from this repository, copy the code snippet bellow to add the repository for your distribution.</p>
-			<p>
-				<strong>Ubuntu:</strong>
-				<pre><code>wget -qO - http://apt.broochian.com/gilliginsisland.gpg.key | sudo apt-key add -<br/>echo 'deb http://apt.broochian.com ubuntu main' | sudo tee /etc/apt/sources.list.d/gilliginsisland.list<br>sudo apt update</code></pre>
-			</p>
-			<p>Please <a href="License.txt" target="_blank">read the License</a> before installing any packages from this repository.</p>
+			<p class="center">To add this repository, follow the directions for your distribution bellow.</p>
+			<hr>
+			<p><strong>For Ubuntu:</strong> Paste the commands bellow <strong>one at a time</strong> into your favorite terminal.</p>
+			<pre><code>wget -qO - http://apt.broochian.com/gilliginsisland.gpg.key | sudo apt-key add -<br/>echo 'deb http://apt.broochian.com ubuntu main' | sudo tee /etc/apt/sources.list.d/gilliginsisland.list<br>sudo apt update</code></pre>
+			<hr>
+			<p><strong>For iOS:</strong> Open this page on your jailbroken iOS device and <a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://apt.broochian.com/dists/ios/main/binary-iphoneos-arms" target="_blank">tap this link.</a></p>
+			<hr>
+			<footer>
+				Please <a href="License.txt" target="_blank">read the License</a> before installing any packages from this repository.
+			</footer>
 		</section>
 	</div>
 </body>
