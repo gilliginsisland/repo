@@ -1,0 +1,36 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: Gilliginsisland
+Label: Gilliginsisland Repository
+Description: Welcome to the island, be carefull!!
+Suite: ios
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Date: Fri, 04 Nov 2016 17:03:42 UTC
+MD5Sum: 
+  333e11f382595faad19b8deadde2b397 2686 main/binary-iphoneos-arm/Packages.gz
+SHA1: 
+  59723505d4005daac57d3a785b8493d9150f23f4 2686 main/binary-iphoneos-arm/Packages.gz
+SHA256: 
+  35636735a8b0283a1390923cc1aaa12a48755d6b515f0c57599c8811cc60e394 2686 main/binary-iphoneos-arm/Packages.gz
+SHA512: 
+  8d7e49048a51007789e1404c4baa4c00c0906e842f46df1b50813d98698a41dd595731c37dd3559445929ca5ce905d33b0c72be15987c5a36c4e1e9c99ef0329 2686 main/binary-iphoneos-arm/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJYHL9uAAoJEAHqCw4bZVnnzDAQAJSd4F8oGXBldDujzXKLMoa/
+dDGW+UF1ZmE6uJzI2LYtXnl0rG4+ha1W8tZsHzrRK96lcGld3iebiRbYdVxcq7Kr
+BKwYHzJMrhWxxOHwtKKAq3fMZuL2Sg1/lPfPSBGuaj3zucE20rweCw7jJOW9Gby5
+Em3WdekaYI802qLv4uuD1FG0bTiSW79HWGBcwVHMhr6ARWRoO2b27dVbDYpzar83
+G5u0Suh9W3RVajuA/Da43BjM+n0dt7ydedpZ8JsuF/5VNwS4YW2mTKIRiamu/31/
+l4GrMtGKZM0sFrwdpgpGzLVyioQwS5ZGMc/Kihj+wKsbfn5hQ+OG3nXEXqI+h388
+H/B9H1cPHU/Un7UaiPXpbDORlgqropAP3kmCTPKZb9Lwo9TQBgLlLD6QV0U7mtR/
+uh8Q1gXP1Mtd45lg0xZOH6Z9/Cvd4mbwwUOxL85kf/uWXTt6Lq7Ce40YGKGhqIrU
++1s7ECFf4rDFw1hGwnH8nIQO3xI2+e5JfUxcXmWDYNIAsskDbU2yaJTZhxN9UaWi
+qBncyq9IxOUEZsq4bnE3wESKFemeN18eeXMLhybf8xnK8UNHRsf1icmFMTSALwuH
+bkV1e699MSztQiWZVeGXxR1NJS5Hb3DACOOTVoS5sJCYJ9+8krWb9Uem+fLg/eMg
+wTFpaunOI3kDhGspINO/
+=iYq0
+-----END PGP SIGNATURE-----

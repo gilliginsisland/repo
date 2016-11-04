@@ -1,0 +1,16 @@
+Origin: Gilliginsisland
+Label: Gilliginsisland Repository
+Description: Welcome to the island, be carefull!!
+Suite: ios
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Date: Fri, 04 Nov 2016 17:03:42 UTC
+MD5Sum: 
+  333e11f382595faad19b8deadde2b397 2686 main/binary-iphoneos-arm/Packages.gz
+SHA1: 
+  59723505d4005daac57d3a785b8493d9150f23f4 2686 main/binary-iphoneos-arm/Packages.gz
+SHA256: 
+  35636735a8b0283a1390923cc1aaa12a48755d6b515f0c57599c8811cc60e394 2686 main/binary-iphoneos-arm/Packages.gz
+SHA512: 
+  8d7e49048a51007789e1404c4baa4c00c0906e842f46df1b50813d98698a41dd595731c37dd3559445929ca5ce905d33b0c72be15987c5a36c4e1e9c99ef0329 2686 main/binary-iphoneos-arm/Packages.gz

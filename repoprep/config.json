@@ -12,5 +12,13 @@
 			"amd64",
 			"all"
 		]
+	},{
+		"name": "ios",
+		"components": [
+			"main"
+		],
+		"architectures": [
+			"iphoneos-arm"
+		]
 	}]
 }
