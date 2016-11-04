@@ -56,13 +56,7 @@ def signrelease(release):
 	releasedir = os.path.dirname(release)
 
 	## sign inline release file
-	gpgargs = [
-		'gpg',
-		'--clearsign',
-		'-o',
-		'InRelease',
-		'Release',
-	]
+	gpgargs = ['gpg','--clearsign','-o','InRelease','Release']
 	subprocess.Popen(gpgargs, cwd=releasedir)
 
 	## sign seperate release.gpg file
