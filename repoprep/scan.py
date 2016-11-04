@@ -73,6 +73,7 @@ def signrelease(release):
 		'Release.gpg',
 		'Release',
 	]
+	subprocess.Popen(gpgargs, cwd=releasedir)
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
