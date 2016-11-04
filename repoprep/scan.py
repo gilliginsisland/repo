@@ -60,7 +60,6 @@ def signrelease(release):
 		'-o'
 		os.path.join(releasedir, 'InRelease')
 	]
-	with open(release + '.gpg') as f:
 
 
 def mkdirp(directory):
