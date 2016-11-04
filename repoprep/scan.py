@@ -69,6 +69,7 @@ def mkdirp(directory):
 	if not os.path.isdir(directory):
 		os.makedirs(directory)
 
+## scans through all the packages in the distribution
 def scanpackages(repo, dist, component, architectures):
 	indexes = []
 
