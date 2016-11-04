@@ -57,9 +57,11 @@ def signrelease(release):
 	gpgargs = [
 		'gpg',
 		'--clearsign',
-		'-o'
-		os.path.join(releasedir, 'InRelease')
+		'-o',
+		'InRelease',
+		'Release',
 	]
+	subprocess.Popen(dpkgargs, cwd=releasedir)
 
 
 def mkdirp(directory):
