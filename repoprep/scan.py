@@ -54,6 +54,7 @@ def main():
 
 def signrelease(release):
 	releasedir = os.path.dirname(release)
+
 	## sign inline release file
 	gpgargs = [
 		'gpg',
