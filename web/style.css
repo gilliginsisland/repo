@@ -41,8 +41,8 @@ body:before {
 	text-align: left;
 	display: inline-block;
 	vertical-align: middle;
-	width: 656px;
-	max-width: 100%;
+	width: 100%;
+	max-width: 800px;
 	background: #DEDEDE;
 	border-radius: 8px;
 	box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(0, 0, 0, 0.45) 0 3px 10px;
