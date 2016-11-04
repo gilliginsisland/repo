@@ -95,6 +95,7 @@ def scanpackages(repo, dist, component, architectures):
 
 	return indexes
 
+## returns the hashes of a file
 def gethashes(file):
 	hashes = OrderedDict()
 
