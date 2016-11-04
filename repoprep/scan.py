@@ -64,6 +64,7 @@ def signrelease(release):
 	gpgargs = ['gpg', '-abs', '-o', 'Release.gpg', 'Release']
 	subprocess.Popen(gpgargs, cwd=releasedir)
 
+## makes a directory and all its leading paths
 def mkdirp(directory):
 	if not os.path.isdir(directory):
 		os.makedirs(directory)
