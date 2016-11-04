@@ -70,7 +70,7 @@ def signrelease(release):
 		'gpg',
 		'-abs',
 		'-o',
-		'InRelease',
+		'Release.gpg',
 		'Release',
 	]
 
