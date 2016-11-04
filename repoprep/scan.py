@@ -68,12 +68,11 @@ def signrelease(release):
 	## sign seperate release.gpg file
 	gpgargs = [
 		'gpg',
-		'--clearsign',
+		'-abs',
 		'-o',
 		'InRelease',
 		'Release',
 	]
-
 
 def mkdirp(directory):
 	if not os.path.isdir(directory):
