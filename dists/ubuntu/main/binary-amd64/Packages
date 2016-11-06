@@ -1,0 +1,27 @@
+Package: plexmediaserver
+Version: 1.2.4.2949-4e494e4
+Architecture: amd64
+Maintainer: Plex Inc <support@plex.tv>
+Installed-Size: 214924
+Filename: pool/ubuntu/main/plexmediaserver_1.2.4.2949-4e494e4_amd64.deb
+Size: 101358724
+MD5sum: 912fce72fdff315fc084b9842b7eac8a
+SHA1: 9de9dcdbbb3e3367863490dc24300b2259ca8877
+SHA256: 980de78320ca1e123057d03818a382bb1ae2ed3bf4680b305bbadf1f672d3058
+Section: video
+Priority: extra
+Homepage: https://plex.tv
+Description: Plex organizes all of your personal media so you can easily access and enjoy it.
+
+Package: systemd-netns
+Version: 2.1
+Architecture: all
+Maintainer: Gil Broochian <gil@broochian.com>
+Depends: systemd, python3
+Filename: pool/ubuntu/main/systemd-netns_2.1_all.deb
+Size: 3506
+MD5sum: 1c2eeda9a8fbbe51cf9259efea591bdf
+SHA1: 5ce7ed5dc9789d8af57aa6192fae536fc77d47b0
+SHA256: a4c2a56c53ebf7ed79005693bb880f2268046bdac3d57bd489f042bf8a9bbcce
+Description: Service files for systemd managed network namespaces
+
