@@ -88,7 +88,7 @@ def scanpackages(repo, dist, component, architectures):
 
 		packages = subprocess.check_output(dpkgargs, cwd=repo)
 
-		## write Packages
+		## write Packages and Packages.gz
 		with open(index, 'w') as file, gzip.open(index + '.gz', 'w') as gzfile:
 			file.write(packages)
 			gzfile.write(packages)
