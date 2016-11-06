@@ -1,13 +1,13 @@
 Package: plexmediaserver
-Version: 1.2.4.2949-4e494e4
+Version: 1.2.6.2975-9394c87
 Architecture: amd64
 Maintainer: Plex Inc <support@plex.tv>
-Installed-Size: 214924
-Filename: pool/ubuntu/main/plexmediaserver_1.2.4.2949-4e494e4_amd64.deb
-Size: 101358724
-MD5sum: 912fce72fdff315fc084b9842b7eac8a
-SHA1: 9de9dcdbbb3e3367863490dc24300b2259ca8877
-SHA256: 980de78320ca1e123057d03818a382bb1ae2ed3bf4680b305bbadf1f672d3058
+Installed-Size: 215028
+Filename: pool/ubuntu/main/plexmediaserver_1.2.6.2975-9394c87_amd64.deb
+Size: 101383064
+MD5sum: e695d343a6af91fc26de5f06e2701485
+SHA1: bd372a74a23d12232bb01036652b935ab825aeec
+SHA256: 49c116eec7621d3bb0cbdd477c77416ada43a973f3f7b07fd8ef0496257d1126
 Section: video
 Priority: extra
 Homepage: https://plex.tv
