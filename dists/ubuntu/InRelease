@@ -8,41 +8,41 @@ Suite: ubuntu
 Codename: ubuntu
 Architectures: i386 amd64
 Components: main
-Date: Sun, 06 Nov 2016 06:19:56 UTC
+Date: Sun, 06 Nov 2016 06:29:49 UTC
 MD5Sum: 
   2222ef4117764b4055d8d5f00df85412 418 main/binary-i386/Packages
-  42feec5f4099e9461cdc8f95ae474c55 332 main/binary-i386/Packages.gz
+  39b9c4d8753c06efddf1356181889eec 332 main/binary-i386/Packages.gz
   8ae466ae6e2c5b24af8d7fe798a47e75 954 main/binary-amd64/Packages
-  1f9d0a21a27bd58307d9161b3de648d6 606 main/binary-amd64/Packages.gz
+  f510270787abc4198a3287e38d74b3c4 606 main/binary-amd64/Packages.gz
 SHA1: 
   de3f1d93abb83f339eaaec2286ab75848ccbf7b5 418 main/binary-i386/Packages
-  05e9d8399ea7f3ac5a39f5ce126e20ba64844dac 332 main/binary-i386/Packages.gz
+  107af7258c4c8ba5d24e96831614865a8c09c795 332 main/binary-i386/Packages.gz
   c6a0e33a592822e41da8b5b9db43227631d47345 954 main/binary-amd64/Packages
-  88500883d8edefdea13fde49288442aacd5798a8 606 main/binary-amd64/Packages.gz
+  125852e3e727caaf18ab3210627a3f5b65af5d7f 606 main/binary-amd64/Packages.gz
 SHA256: 
   9b5d8981acad8db25cdb3bdf81f12fc0a9bbbfeac25600134782f46b03f8f8e8 418 main/binary-i386/Packages
-  7b3eb1e655ca9c194b4a1b7e503209cdcfc2b802963ffe3230d00038070513f4 332 main/binary-i386/Packages.gz
+  40df8a4feff800b38a1969b9098924f67635dee902f0edcac000859747315572 332 main/binary-i386/Packages.gz
   595e8dd5d1f5b0da67c36ef5575078bb1e7a45034b5fd1ef509a7afa7465b22c 954 main/binary-amd64/Packages
-  d9a83d7422400b09acbc672dae94f70379ea84cf748b1b7a8ff3ab3e43f41158 606 main/binary-amd64/Packages.gz
+  702e7e0fc82586df024b3bf1af896891d1552470e9c9b0b0c00cd67dabc60326 606 main/binary-amd64/Packages.gz
 SHA512: 
   b9ac5672d720beda24bc0cec0b56acf4e327304f1065bbc8ca38462760175b2d653c2062cc3e27924b4a1c8ad5aa4f3ba15b5c7c4e68fdb63bb980d5665fcee8 418 main/binary-i386/Packages
-  9588bd59ce19f1e687c0a8df65823f0257d710bf7dc91f988981312badaf332b83ba3430f8355daa18bf3679a1fd5602d85c4b26a28f074fbd27860a7ffdb3f6 332 main/binary-i386/Packages.gz
+  2db4f8abf8420562b8098755669dfcb92112d248ceb283f529f2f5c6297cc144f9a150f91764bc12ed29cf2247b902656eefb4c07d5cecc679d30d270211cbe3 332 main/binary-i386/Packages.gz
   6059ea26b684e2341b01cd1732b938deaf351a1337d94b65c43594c0fbbf78c1ffe17ecbaf0ae669cae06dee61f406fd505268a4716e7586e8021b604c5c3d24 954 main/binary-amd64/Packages
-  ee5c5732e33677310ac0a38e4ce042d59f7530eff9f83714a3f61d281cbe19617340d742adaf817767f56adaf095823094b4e00d75a01ea5c794f845d5810b2e 606 main/binary-amd64/Packages.gz
+  b046aa20ec4d3197e4197c4c4bf903f007c64d8131ee07bb1d99f874fb00ae233216e5eee3cd81d11015a73fadf1565d553ce05fa799a10fa684309710275f2f 606 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJYHsuMAAoJENqHYzWEvZBkqlwP/0I8qyzR909gVUhsCynIrpWl
-/qi+2oZJwQX/iPANeO/wT9wHAw4VW9+kdzROrGtnw9J2qQ2N85qlq8Jha8Wl9R4v
-RXlR43jvZEM34zf0/ZpSZ88lcRQfnJcLq/MoVSbViGZObvLoNH47Hc9zT+ho01IT
-sPAe6oO7SpjlH1LtZgdbytMXSUr6XlE41djpJa/HZ0afhpeNoZK5zDPWtPliVRYw
-ehH6BqPdXH7knmfQ0xhiKMo6LzQuQUkV+Sf4Ws+2hdyFQ29tWIT0Pio7mcecIPWl
-9eX4+e/szhl3lnmMbFgaqfNbdAhhmCjTQL9kdDzntTVdzgUu+mtFrphN0BmlTcy+
-RF3NgwyCqeiNiyDyuhZEH/HQ4rhHb4g7BaDO0mCilCOUjyc47pIgHtAanru2hmV7
-zKQMMMvzhrYCf25IQyghcqAvskSC7mFaTM+wrdXAOJPRr0t3AhG88DuVgXgozzD1
-UCnvAa5KcFxw0V5a34X5XUWWinhzQrpwfRj81Pl2kBevcbdH9zY4lSeQ5yalmWy3
-I8aw5Q0RKCMehimo/1TP2fcJQFL5mkQnEC247hgYJnQlxOFBE3/QtoEdNSJfmVr7
-sXCuVVEnFnKVL/HQeBhZ0I815kzD1VkQtvv3XH+2uGIj5kkRcQ4qZSLrXRIXznRI
-uyiJDRL1miDKwGOjn9Ye
-=sCz9
+iQIcBAEBCAAGBQJYHs3dAAoJENqHYzWEvZBk920QAJJSpetV1NH8OZXBlCbR57ZA
+gaD76b97+d6uFz2BcaXkyCFRB+E/87zsodLp/zgCYUVe/KM830kP5NLEj0SrHQk5
+nNwBxp1xyyLSNMvmPffa2PVAHAw98NhuzExeRjyOF2e8iNI5dTXr9kdnqWj1COyE
+vPUCgED8dY06KNfMymK7ndocwfRhygX0A+mjK3IPQp4a22tNp0Io1PSbdP3e+b9D
+rD+i3o/69ZWUdLRtYhtG0nvL8gRS0XA7XerX8Bh5m2A4xi79lBCRo8UIx8mTamP1
+o2Iu+nVQqf8q4ighsGhDSF0Ts7MuKvr1lf2LBWkZIMLB4OTifbv1nni0ELdZLvXW
+ZWt5E4YvYvglZCmf4LL+Xp+WLBwSj48Df3P6tjf00uGHLkTT0P5XflAoaxY0qLCo
+AjqATcNADmyWTdD4R9mZmDOZkv9ZzqUwD4NDYJBgP6eP1d6iWdOht/Y2RZZPiRaz
+CtkK2go/wh0Ehq4gNNS0bCubTgnni0VPJitYg0+xYCN3wuWaWaJpA/aKBDSXOiAO
+n9uO/jDad0x91MYse6QOPtsdkOYQWfWnDTtO0cvRZN0wOEHey32h27AD0yYWnZVb
+lC6ZUJRVeZy+kgH8WWucaxHsy5wDDbF7NJYOQ4Q2hicckW57X8GknSRddwFHgt7e
+PQ6TQNla9SZXDIYWBY0V
+=vyVF
 -----END PGP SIGNATURE-----
