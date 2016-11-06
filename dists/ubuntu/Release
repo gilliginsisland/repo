@@ -3,34 +3,26 @@ Label: Gilliginsisland Repository
 Description: Welcome to the island, be carefull!!
 Suite: ubuntu
 Codename: ubuntu
-Architectures: i386 amd64 all
+Architectures: i386 amd64
 Components: main
-Date: Sun, 06 Nov 2016 06:06:46 UTC
+Date: Sun, 06 Nov 2016 06:08:02 UTC
 MD5Sum: 
   2222ef4117764b4055d8d5f00df85412 418 main/binary-i386/Packages
-  3704d6365e73ab6d90ec32fa2b1041f0 332 main/binary-i386/Packages.gz
+  216278bdc9efadbe8bf96fe6f6349e22 332 main/binary-i386/Packages.gz
   ed21a90e3fa9fdf81062e65846cf7a81 954 main/binary-amd64/Packages
-  d2e9ffcf15892ca386c63cdb93b2a944 606 main/binary-amd64/Packages.gz
-  2222ef4117764b4055d8d5f00df85412 418 main/binary-all/Packages
-  664d566609c14400b104538d06fdc17a 332 main/binary-all/Packages.gz
+  2592a58c3f2c7e7628266e86ccd0839d 606 main/binary-amd64/Packages.gz
 SHA1: 
   de3f1d93abb83f339eaaec2286ab75848ccbf7b5 418 main/binary-i386/Packages
-  3c4ae5cdda12b1e4517d513983002f715e294892 332 main/binary-i386/Packages.gz
+  b8f7e7e12c89dcd587cd064b02251b5d436e8fc6 332 main/binary-i386/Packages.gz
   74b16799512d5281bbb62ca49b4201fc1f5cec8f 954 main/binary-amd64/Packages
-  dfcb45c44dae0c2a0b2f1d74276e632d4a11195b 606 main/binary-amd64/Packages.gz
-  de3f1d93abb83f339eaaec2286ab75848ccbf7b5 418 main/binary-all/Packages
-  af5f740be72ebd5bfe0ed16b124fdd3c49e97758 332 main/binary-all/Packages.gz
+  23bf118f7ea7f028d0b485ed1b545f14a1a7c876 606 main/binary-amd64/Packages.gz
 SHA256: 
   9b5d8981acad8db25cdb3bdf81f12fc0a9bbbfeac25600134782f46b03f8f8e8 418 main/binary-i386/Packages
-  e53f5fef79a95616b53cc555d7004d64b36ee8f5e720b102a0cd022f99592617 332 main/binary-i386/Packages.gz
+  b9967fff106ffcbb78736006cd938b04bd6b1e08a94af9e33ac7b1d0d0116f5d 332 main/binary-i386/Packages.gz
   49f34bef38c1b9614ee222997aac8b894e222b0e88899eaf7d906110b787590e 954 main/binary-amd64/Packages
-  43da62cc25a48ccdb3e600663f7a39592650272b4b809dc1195f8c69c5ef36de 606 main/binary-amd64/Packages.gz
-  9b5d8981acad8db25cdb3bdf81f12fc0a9bbbfeac25600134782f46b03f8f8e8 418 main/binary-all/Packages
-  8fa889077b22d7bb2be33b6b986680305f2260eb2c69757fb7952fcc6147bb49 332 main/binary-all/Packages.gz
+  588e06c895e23d185c06b86a43e2b006ed8be6ce03892b69dfbd8c6197fa3c13 606 main/binary-amd64/Packages.gz
 SHA512: 
   b9ac5672d720beda24bc0cec0b56acf4e327304f1065bbc8ca38462760175b2d653c2062cc3e27924b4a1c8ad5aa4f3ba15b5c7c4e68fdb63bb980d5665fcee8 418 main/binary-i386/Packages
-  215d69444477e63d1896ef57b8f13dd22445e32403aa26d708bf6e0f8c80cbbef7d8fd84b29df03ec126fcb422821a9b8065b4c3b033b1bb6db7b5ebcbabd50c 332 main/binary-i386/Packages.gz
+  94a6ff9c818877426e56cfab0eb8bf30278305ad110d922041e70ccb38320e309de37849b3f8375f92a97028a426c18e34dda4ed888e51d62ac28ce184b1045b 332 main/binary-i386/Packages.gz
   d367ce2186634e2735ffa8d60088e27ed5c1e023fa50136fd03a1d7e4d9764d767740d779990f40efe6e73bc88b7e6147a27deaf12b9b0d664e58005cdb4bcc1 954 main/binary-amd64/Packages
-  d50d1442a566752444e49c60672dba0d82764c73f6314a4049daea0a572b887ee1836142e5ebcbd90e089eaac06386c8f5ffc2880318f222421c0b1977a1249c 606 main/binary-amd64/Packages.gz
-  b9ac5672d720beda24bc0cec0b56acf4e327304f1065bbc8ca38462760175b2d653c2062cc3e27924b4a1c8ad5aa4f3ba15b5c7c4e68fdb63bb980d5665fcee8 418 main/binary-all/Packages
-  4f61025dc9d0410ebd85cb6a6ddd08c050e298ce84fd7338310ca1d629faa38eedf12cee22ece3ca11f6cd1b9fbc2ed0b712335abe79510e23d04190127521c3 332 main/binary-all/Packages.gz
+  5d70b88388b6ffc85aac4fdca414e77d8f8b7f486167b4dfc1351d0d4470b823676fa3c5c9e34d7c58d7d09f48ff7e469d8d06affb2fd369bc540bd9668f9ac3 606 main/binary-amd64/Packages.gz
