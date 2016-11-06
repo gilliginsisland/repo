@@ -9,8 +9,7 @@
 		],
 		"architectures": [
 			"i386",
-			"amd64",
-			"all"
+			"amd64"
 		]
 	},{
 		"name": "ios",
