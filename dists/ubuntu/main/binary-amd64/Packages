@@ -1,3 +1,15 @@
+Package: nsdo
+Version: 1.0
+Architecture: all
+Maintainer: Gil Broochian <gil@broochian.com>
+Depends: daemonize, sudo
+Filename: pool/ubuntu/main/nsdo_1.0_all.deb
+Size: 1280
+MD5sum: b520b584aedcbc7118f8f962b667c4b0
+SHA1: 1e55dc24183f5b603ffe9a1037a6d973be939e34
+SHA256: e65dd2e9e56797fec1c938dded47b07d02412f19a8cdc4846547a735c5357019
+Description: Allows running commands in a network namespace without being root
+
 Package: plexmediaserver
 Version: 1.2.6.2975-9394c87
 Architecture: amd64
