@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: Gil Broochian <gil@broochian.com>
 Depends: daemonize, sudo
 Filename: pool/ubuntu/main/nsdo_1.0_all.deb
-Size: 1280
-MD5sum: b520b584aedcbc7118f8f962b667c4b0
-SHA1: 1e55dc24183f5b603ffe9a1037a6d973be939e34
-SHA256: e65dd2e9e56797fec1c938dded47b07d02412f19a8cdc4846547a735c5357019
+Size: 1172
+MD5sum: 6e248c4c5c1fd956a8be56f4eb6fa3fd
+SHA1: 60ca9ad5c91e4860a4105103b4a796632f4f030a
+SHA256: 36fb8a3b2934ceccaf8cda7c98eeb156572a915ccdc0afe8c25ed2de2eccb274
 Description: Allows running commands in a network namespace without being root
 
 Package: systemd-netns
