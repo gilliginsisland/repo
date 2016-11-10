@@ -5,7 +5,8 @@ from collections import OrderedDict
 hashetypes = OrderedDict([('MD5Sum', 'md5'), ('SHA1', 'sha1'), ('SHA256', 'sha256'), ('SHA512', 'sha512')])
 
 def main():
-	configpath = os.path.dirname(sys.argv[0])
+	realpath = os.path.realpath(sys.argv[0])
+	configpath = os.path.dirname(realpath)
 	repopath = os.path.dirname(configpath)
 
 	with open(os.path.join(configpath, 'config.json'), 'r') as f:
