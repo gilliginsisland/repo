@@ -26,14 +26,14 @@ Homepage: https://plex.tv
 Description: Plex organizes all of your personal media so you can easily access and enjoy it.
 
 Package: systemd-netns
-Version: 2.2
+Version: 2.2-1
 Architecture: all
 Maintainer: Gil Broochian <gil@broochian.com>
 Depends: systemd, python3
-Filename: pool/ubuntu/main/systemd-netns_2.2_all.deb
-Size: 3608
-MD5sum: 9d2f48d0edb7e860f41f109707f4861d
-SHA1: 12b1dc3eb8e44d583fb7d41c834151e09d8f1fcf
-SHA256: ce7011f5d69263cc01b159d79630da3080735ea5802e5a57a4aba122fdd1bce3
+Filename: pool/ubuntu/main/systemd-netns_2.2-1_all.deb
+Size: 3606
+MD5sum: 6ed8b40f8be5e23422bd0e153e114b74
+SHA1: 90566d586b87022e797d6b742520dfc26b3ab6fb
+SHA256: 49a6f6c0bb4511e87fc3cf7235d182076aeb3fb1aa162f5e9f68df2d53a3eb88
 Description: Service files for systemd managed network namespaces
 
