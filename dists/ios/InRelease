@@ -8,33 +8,33 @@ Suite: ios
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Date: Wed, 09 Nov 2016 22:12:52 UTC
+Date: Thu, 10 Nov 2016 03:44:46 UTC
 MD5Sum: 
   d760dc6a3fd82c68e2c3329436ca6c63 6611 main/binary-iphoneos-arm/Packages
-  7c82c239eeb4598771e95debe2de2fa6 2508 main/binary-iphoneos-arm/Packages.gz
+  e478df28d73677ad6811221bb238a512 2508 main/binary-iphoneos-arm/Packages.gz
 SHA1: 
   1c27e9fdc36e216177fcafea5bad9fb7bbf9687e 6611 main/binary-iphoneos-arm/Packages
-  9cce719701904c598551f96b0567c84a3eb7c0cc 2508 main/binary-iphoneos-arm/Packages.gz
+  fc02991b37ed0fe14e582b9d6d479c6194307a9c 2508 main/binary-iphoneos-arm/Packages.gz
 SHA256: 
   c0efc807126d7922312f410324976b28934556bf7eebc9099cdd136bc2752171 6611 main/binary-iphoneos-arm/Packages
-  89cc8dd5c68a4dadaf5849801f612c9e2ec55fa6e68b8f7d21263230fc4ee22f 2508 main/binary-iphoneos-arm/Packages.gz
+  f0563448c50ca696f0595e5123f2555488adac00d120d387e4606ec43344495e 2508 main/binary-iphoneos-arm/Packages.gz
 SHA512: 
   04a373c9bd196e4593df24c107e135c3e640498ba9da98673e87464c4ad4db73fe831fc6394e567aa7c64fa7a8e071c23dcd8a0b4819c3e3ee2d7faa7a300cbd 6611 main/binary-iphoneos-arm/Packages
-  b63462fa1e5f842f8e3a6cea1e6e8d58fdaf8161466fab5aa37318be0e2f358cf2dc1f610c8ab61735018d470edd9f8cb8503a9d6527cbc49ff410c49bf3cf90 2508 main/binary-iphoneos-arm/Packages.gz
+  cdfe211f4a1a8c9d9e53a462fe0d1bc2c7564a4222e7c3778471d969b56ae13d113180d6f4b33d751fae0f79512caa66666eb5ab3fe050ec4de98b5dacf5bc45 2508 main/binary-iphoneos-arm/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJYI59kAAoJEAHqCw4bZVnnlKsP/1WA5+PivXa5Mr1qa04SEA8b
-72UvpFZGHmEElS9IH8+ap/DXDGRE05WrM+VShXaj/tVOxBsHYC+CjgvUV7s/kKJj
-Ca0RyyAaS5IqrUfz9W1dKI0lzDnE+1pqGHtuPamnsyy5m+PpXVvsdpWuxsyYYFhB
-0qgkROwCv6gFzB5PJRc+ys5LEp4kgv7tazYyQBloifvJSJsqi+viNrz07u/crBNM
-qFFJWCW/e5Ota2V85WB8+65FYg3qYnGioBON7H7eiQSFwiK8YWCn7LdPHa0Gv9rQ
-zkB3wmbbH1yIkDSlncxWvvnqBMw6bE5peZtXKCJNnEL66uVlzi7Rkt3B0E/S9/xa
-jcM0ehCaanhKiNZfwBRIz94eyFQJwXgaToP0bgqWRZvPBkwWD/c2S47yoBdnsCR3
-s9PIYSp+4Y2wP0z1WLGxwiJpkcZf2sVBMPRMXXNy9P+kFfPQdmN382QW+CNdfOs6
-Tdki6Mk/+Q5IZSzj/FgwSAU7EvHv45QqdK64zmoVtrT+1MxMht+gVudctahk2eTh
-nFmywQ547UjnbD4yJdkqQNd6LCNAb/nKm7kWT0bDj0Dlcf/3FaAvq8hs2LA3Z6BU
-SoOfTXjUTRtVZEqwJ+Qe4oSJQiqRSXthBFg2RLb2mqNMZbcweI1xaXNehRPfZFZc
-ZdKo7R/L9+4nHdf7X0Of
-=9JNX
+iQIcBAEBCAAGBQJYI+0uAAoJENqHYzWEvZBkHzgP/35fDlH+oWkFUoJaQmAn0cpB
+hlO2L8onTJ3u/Z2TeXwWZSbVMNeGXOG2S2pmKx++grXiSxTZ2/zsgQBQKmvg3Sbk
+qY38jJywkTlWqkM2P1VxfnXieRfDWd0yQwdtPIohPT9Oxu/+OPL+S64uaINz96p1
+KuIBGFWiL+RTCEBKRmiLc8zo1hQovdJhqNWu3T9zr5NWETlWc4BKcp13c2Mt573Y
+2MIkvf/Havj6m0R1WE2L9aaSK0tPCRhV9+FFjK3kuMOSl8eUWzStIJ5J12Si2vUZ
+YlObbvrww8BQ/uPzJmT7pV99IYxv7qMgDRFmVoR6zTT1U67DmJ61hupQbvYu9qlk
+X38u47VOkMrF+T5+1FNgV/3cBENR0ZEI4KqV6HhvHqz7NwDEFYRXy8NsszLqG1Lf
+b6aZvpNi3Hf+TcMkblqW5kuhbZXbrHtCrv7PjyNQadiZKh6tkiyIBr/0nesQMqC8
+Non681ZCD67lbXuEwgFp8v2u3zHuboFx4pciq4iBXTakMXZtujCD0g9IviPzEtzk
+ifIMj+mAlL1VpnjoirbH0k8jEs38SK/tdylNyEarKhXBt/K7/iY5SgchXd3R/aHj
+0G1QezgMvTWvycKCECg8AJ8IKb/UidVL+c+gBNX6m+M0WXVD297QpREPexM2uB/t
+HJuwHCn/1uOz70vgxCeQ
+=ZrYU
 -----END PGP SIGNATURE-----

@@ -5,24 +5,24 @@ Suite: ubuntu
 Codename: ubuntu
 Architectures: i386 amd64
 Components: main
-Date: Wed, 09 Nov 2016 22:12:51 UTC
+Date: Thu, 10 Nov 2016 03:44:45 UTC
 MD5Sum: 
-  98e5144ed945c23f32d4ad70b1f8cbbc 830 main/binary-i386/Packages
-  d843c9038a50cb4985b53f4b86fc79ff 500 main/binary-i386/Packages.gz
-  61f4ed7b8cf6f9b2e39b18692873dfa7 1366 main/binary-amd64/Packages
-  2e534bc7f942c72a78ac817655123a1f 772 main/binary-amd64/Packages.gz
+  f603ef8dac344d00da46c32d390b5dc3 830 main/binary-i386/Packages
+  4423e72a3a477e0be3c9ef03f69bb0de 500 main/binary-i386/Packages.gz
+  f9f318a40068f5637d705a65ba43d0bc 1366 main/binary-amd64/Packages
+  f0f456bfd437b8ab8214d8d24f7a456e 770 main/binary-amd64/Packages.gz
 SHA1: 
-  b5111ca1f3250d0536477e86e9fc556887f6f854 830 main/binary-i386/Packages
-  a768ce3512be375b2628d356d75455b31bfe0d8d 500 main/binary-i386/Packages.gz
-  6a20c0d0572b6f2f0aee58552bba11e4dd0fec60 1366 main/binary-amd64/Packages
-  86edd00c0066a8fbd3fe07d70e96274acb21c793 772 main/binary-amd64/Packages.gz
+  8dc075513a27d5a35e9f8eaf206b467001d22eb8 830 main/binary-i386/Packages
+  3c13f3857cb0f4ab53d6a79fef1a72a4b31bfe46 500 main/binary-i386/Packages.gz
+  12cd06abb160d710892c5753d804781d921a096a 1366 main/binary-amd64/Packages
+  35d996af1dc6d3fbfb4ea337ec874d0b62038d86 770 main/binary-amd64/Packages.gz
 SHA256: 
-  3f2495d5917ed7985ab4bffbccc32a359e7616745fdb742d143e59e683014bc9 830 main/binary-i386/Packages
-  7b97481e9abad6a84d536321d443f7d46e54b3cabaab4e3700072e8ed7dcc542 500 main/binary-i386/Packages.gz
-  03c9a0ab06ee449af2f7da29c10d330f581fb9f6c09c468b5a758cd0d2fe8a58 1366 main/binary-amd64/Packages
-  91d3d2b8fba4face8f413b531895e0cbfc7845b048f6790487235430b6239a65 772 main/binary-amd64/Packages.gz
+  e30988618a39698bc130fefc90ba26353b96feb836be92348e064c1cc5be3d6d 830 main/binary-i386/Packages
+  9a7df2b6e7015e40168390dc8bf4feaf108da45ea5925dd5df6b31b316376d09 500 main/binary-i386/Packages.gz
+  bee0f97ce2d9937a50d8e3aa516c01e207b6526cb4b03ccbb73cbdab8c5814f3 1366 main/binary-amd64/Packages
+  91cefad3efe86d807f04307c45cfde7fb11f0b15ff3dcc174a449e687000bc95 770 main/binary-amd64/Packages.gz
 SHA512: 
-  e3642443f44f2e9e7f5758ef583229bed20b0b85084da59f78b37778d68279ea6cca487af62a566ce55ea529821b8f54e71bd6e71ea0324422122893e3d3268a 830 main/binary-i386/Packages
-  78f35019143c7f9ddbf30e024b58ad8bd9779b110a56386676724e644678f511610c9af5e674ff0ae5ea3d0ab0c72b7a7dd75f0a7efb7a14febc17888252f38a 500 main/binary-i386/Packages.gz
-  5202e15304c16309d7bf317fc09092c8da4c85774e05428e60238fdb0e8aa4f896d79478e7389bc0a34a8dc0a6656d4df2280c5e9ccfd76aca751009a8d680c6 1366 main/binary-amd64/Packages
-  d577e5346e173b39b4daf1d64fd35c151a6468695b462ebca34b477d1caabadb052f4b7bb9dbf5c1376cda1e9e00b013fae796bf013b1017522b758a728a9f9f 772 main/binary-amd64/Packages.gz
+  5d579f119e6600462f6aa361525c3b98382f88e187144cffa2187ab788cba1801dbdddf18e96ca2cdf9c31b0c364a7f1fc212cc8246bdc59cc7071465986760b 830 main/binary-i386/Packages
+  24ec62f5c5fbc5788cb18839e3f9c9d70425aa0aa9fb374839f72fac1600899bb535f0c1b98df512b8b631ff61823a0501ecc65759a7e1d70f8a8845710f0033 500 main/binary-i386/Packages.gz
+  a8f31fa981e8081b47b4dbd4b7e743a030628973d3a18755e27ed428abecd081cf822e928b212d4ae18b32a88cb1bc09416209fd6b9a1e2c9b9a1b0d5e504bd4 1366 main/binary-amd64/Packages
+  17a444daebf9b191c3cf7dbe0423c7b2b0684808d60e19fbd4cbc809c5cba47c95b76828f50c0c81ea147f278dcb7ea48bab0bb4c62092b0b7fa3c669765ec21 770 main/binary-amd64/Packages.gz

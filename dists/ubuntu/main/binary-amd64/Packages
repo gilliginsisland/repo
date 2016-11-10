@@ -11,29 +11,29 @@ SHA256: 36fb8a3b2934ceccaf8cda7c98eeb156572a915ccdc0afe8c25ed2de2eccb274
 Description: Allows running commands in a network namespace without being root
 
 Package: plexmediaserver
-Version: 1.2.6.2975-9394c87
+Version: 1.2.7.2987-1bef33a
 Architecture: amd64
 Maintainer: Plex Inc <support@plex.tv>
-Installed-Size: 215028
-Filename: pool/ubuntu/main/plexmediaserver_1.2.6.2975-9394c87_amd64.deb
-Size: 101383064
-MD5sum: e695d343a6af91fc26de5f06e2701485
-SHA1: bd372a74a23d12232bb01036652b935ab825aeec
-SHA256: 49c116eec7621d3bb0cbdd477c77416ada43a973f3f7b07fd8ef0496257d1126
+Installed-Size: 215052
+Filename: pool/ubuntu/main/plexmediaserver_1.2.7.2987-1bef33a_amd64.deb
+Size: 101409368
+MD5sum: d109a3825a54ca0e5ed5a1df0af59b9f
+SHA1: 864652a94a5d3cc31991407ad2267d8d775b3908
+SHA256: 33b21ebb656e1f1011141aff5e6a47946c346392912b4c9ce3049df7e1d9ba08
 Section: video
 Priority: extra
 Homepage: https://plex.tv
 Description: Plex organizes all of your personal media so you can easily access and enjoy it.
 
 Package: systemd-netns
-Version: 2.1
+Version: 2.2
 Architecture: all
 Maintainer: Gil Broochian <gil@broochian.com>
 Depends: systemd, python3
-Filename: pool/ubuntu/main/systemd-netns_2.1_all.deb
-Size: 3506
-MD5sum: 1c2eeda9a8fbbe51cf9259efea591bdf
-SHA1: 5ce7ed5dc9789d8af57aa6192fae536fc77d47b0
-SHA256: a4c2a56c53ebf7ed79005693bb880f2268046bdac3d57bd489f042bf8a9bbcce
+Filename: pool/ubuntu/main/systemd-netns_2.2_all.deb
+Size: 3608
+MD5sum: 9d2f48d0edb7e860f41f109707f4861d
+SHA1: 12b1dc3eb8e44d583fb7d41c834151e09d8f1fcf
+SHA256: ce7011f5d69263cc01b159d79630da3080735ea5802e5a57a4aba122fdd1bce3
 Description: Service files for systemd managed network namespaces
 
