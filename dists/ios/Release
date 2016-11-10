@@ -5,16 +5,16 @@ Suite: ios
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Date: Thu, 10 Nov 2016 17:34:23 UTC
+Date: Thu, 10 Nov 2016 17:34:46 UTC
 MD5Sum: 
   d760dc6a3fd82c68e2c3329436ca6c63 6611 main/binary-iphoneos-arm/Packages
-  204acf54a41386fb134b4181f221c4a5 2508 main/binary-iphoneos-arm/Packages.gz
+  d35b0b3ec4a809f395d755aba1125df3 2508 main/binary-iphoneos-arm/Packages.gz
 SHA1: 
   1c27e9fdc36e216177fcafea5bad9fb7bbf9687e 6611 main/binary-iphoneos-arm/Packages
-  16c50d04f3484dba133ac661ea0cb001a41f389f 2508 main/binary-iphoneos-arm/Packages.gz
+  b6537468bd5db257d20f85c5bc7e6567a9f359bb 2508 main/binary-iphoneos-arm/Packages.gz
 SHA256: 
   c0efc807126d7922312f410324976b28934556bf7eebc9099cdd136bc2752171 6611 main/binary-iphoneos-arm/Packages
-  ddb0f635d6207cc2981fa5a7775ed23b4028f8297948facc161d90c46fc5539b 2508 main/binary-iphoneos-arm/Packages.gz
+  a504f3129e1135c11859f6df7cde6b35ba92ae24275c462fff95af71dcfd4ddb 2508 main/binary-iphoneos-arm/Packages.gz
 SHA512: 
   04a373c9bd196e4593df24c107e135c3e640498ba9da98673e87464c4ad4db73fe831fc6394e567aa7c64fa7a8e071c23dcd8a0b4819c3e3ee2d7faa7a300cbd 6611 main/binary-iphoneos-arm/Packages
-  0eaf8df5fcec65bb4b92ce233705e934f46c05b358ca831c1d0ab4aaa19d212a2225af06c29b0515163c15facd48eff46d2c8e7a9f6bb597795e69596e27a8ff 2508 main/binary-iphoneos-arm/Packages.gz
+  bdf63efba9e58bd9ba49b9966963877412b3d1d8281abfee1690babd864663007654b7e930c27c4317b6178108ecd496fa6389745005dcafa56e114b9ad2f343 2508 main/binary-iphoneos-arm/Packages.gz
