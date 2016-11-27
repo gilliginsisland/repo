@@ -11,15 +11,15 @@ SHA256: 36fb8a3b2934ceccaf8cda7c98eeb156572a915ccdc0afe8c25ed2de2eccb274
 Description: Allows running commands in a network namespace without being root
 
 Package: plexmediaserver
-Version: 1.2.7.2987-1bef33a
+Version: 1.3.0.3059-6277334
 Architecture: amd64
 Maintainer: Plex Inc <support@plex.tv>
-Installed-Size: 215052
-Filename: pool/ubuntu/main/plexmediaserver_1.2.7.2987-1bef33a_amd64.deb
-Size: 101409368
-MD5sum: d109a3825a54ca0e5ed5a1df0af59b9f
-SHA1: 864652a94a5d3cc31991407ad2267d8d775b3908
-SHA256: 33b21ebb656e1f1011141aff5e6a47946c346392912b4c9ce3049df7e1d9ba08
+Installed-Size: 218816
+Filename: pool/ubuntu/main/plexmediaserver_1.3.0.3059-6277334_amd64.deb
+Size: 103887114
+MD5sum: 7cce67c44dff11f1996481e08c7e7f3e
+SHA1: a9e24f8e946388a16a38dc655eeed55186e8dc37
+SHA256: 548b5a4fde3be3335b61eced084df03b5ac6f0b850baa3448d83d98908a00d8c
 Section: video
 Priority: extra
 Homepage: https://plex.tv
