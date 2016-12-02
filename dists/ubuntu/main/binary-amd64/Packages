@@ -7,10 +7,10 @@ Conflicts: libavahi-compat-libdnssd-dev, libavahi-client-dev, libavahi-compat-li
 Replaces: libavahi-compat-libdnssd-dev, libavahi-client-dev, libavahi-compat-libdnssd1
 Provides: libavahi-compat-libdnssd-dev, libavahi-client-dev, libavahi-compat-libdnssd1
 Filename: pool/ubuntu/main/mdnsposix_765.1.2-1_amd64.deb
-Size: 235546
-MD5sum: 686e81691065b75a9a00f100e7a286dd
-SHA1: 42552df6e40e2a28c099624d785688c748cf35bb
-SHA256: f0aa3de97515909194c86d3ec07f158e449d3d09ef8d20e7c6ab1f5a76e2c1f2
+Size: 235522
+MD5sum: 64a45d6657ca89f0b7bf546922da2c87
+SHA1: 42017628d11d8239e9335d2f2540b31ad66a7ee3
+SHA256: 272ab04d1b3cc419f69ca88e2f9715e5cf5707ba93914f36d0ebe02b62cd3d36
 Section: checkinstall
 Priority: extra
 Description: Apple mDNSResponder
@@ -35,10 +35,10 @@ Installed-Size: 152
 Depends: mdnsposix
 Provides: ohybridproxy
 Filename: pool/ubuntu/main/ohybridproxy_20161202-1_amd64.deb
-Size: 15964
-MD5sum: 9d81c4eaf0e9e375207a17ca9a55c03c
-SHA1: 65bb6a7b0637614d468387a6b72601c0a7057772
-SHA256: 7d822d9ff6fb5194acfe8c3448ce96c650b64433ddcf47e7b5999f4bc4ab5d19
+Size: 15968
+MD5sum: 92e8ed4a43cc5e7001240b61dfafe514
+SHA1: 9874719cc9190729985a4da19ee541d53103b0ae
+SHA256: 12e3f34f6c8bc764e19cb697806039221ccc35a3a726ff4d09a56c578836364f
 Section: checkinstall
 Priority: extra
 Description: ohybridproxy is a mDNS/DNS hybrid-proxy which allows to exchange service
