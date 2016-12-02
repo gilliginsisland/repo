@@ -1,3 +1,20 @@
+Package: mdnsposix
+Version: 765.1.2-1
+Architecture: amd64
+Maintainer: gil@broochian.com
+Installed-Size: 728
+Conflicts: libavahi-compat-libdnssd-dev, libavahi-client-dev, libavahi-compat-libdnssd1
+Replaces: libavahi-compat-libdnssd-dev, libavahi-client-dev, libavahi-compat-libdnssd1
+Provides: libavahi-compat-libdnssd-dev, libavahi-client-dev, libavahi-compat-libdnssd1
+Filename: pool/ubuntu/main/mdnsposix_765.1.2-1_amd64.deb
+Size: 235546
+MD5sum: 686e81691065b75a9a00f100e7a286dd
+SHA1: 42552df6e40e2a28c099624d785688c748cf35bb
+SHA256: f0aa3de97515909194c86d3ec07f158e449d3d09ef8d20e7c6ab1f5a76e2c1f2
+Section: checkinstall
+Priority: extra
+Description: Apple mDNSResponder
+
 Package: nsdo
 Version: 1.0
 Architecture: all
@@ -9,6 +26,26 @@ MD5sum: 6e248c4c5c1fd956a8be56f4eb6fa3fd
 SHA1: 60ca9ad5c91e4860a4105103b4a796632f4f030a
 SHA256: 36fb8a3b2934ceccaf8cda7c98eeb156572a915ccdc0afe8c25ed2de2eccb274
 Description: Allows running commands in a network namespace without being root
+
+Package: ohybridproxy
+Version: 20161202-1
+Architecture: amd64
+Maintainer: gil@broochian.com
+Installed-Size: 152
+Depends: mdnsposix
+Provides: ohybridproxy
+Filename: pool/ubuntu/main/ohybridproxy_20161202-1_amd64.deb
+Size: 15964
+MD5sum: 9d81c4eaf0e9e375207a17ca9a55c03c
+SHA1: 65bb6a7b0637614d468387a6b72601c0a7057772
+SHA256: 7d822d9ff6fb5194acfe8c3448ce96c650b64433ddcf47e7b5999f4bc4ab5d19
+Section: checkinstall
+Priority: extra
+Description: ohybridproxy is a mDNS/DNS hybrid-proxy which allows to exchange service
+ discovery and other mDNS-information usually limited to a single link
+ in routed networks with multiple links. This process is explained in
+ http://tools.ietf.org/html/draft-cheshire-dnssd-hybrid-01 which inspired
+ this im.
 
 Package: plexmediaserver
 Version: 1.3.0.3059-6277334
