@@ -12,8 +12,25 @@ html {
 	box-sizing: inherit;
 }
 
-::-webkit-scrollbar {
+::-webkit-scrollbar-thumb {
+	border-radius: 20px;
+	background-color: hsla(250, 100%, 50%, 0.75);
+	border-style: solid;
+	border-color: transparent;
+	border-width: 3px;
+	background-clip: padding-box;
+}
+
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
 	display: none;
+}
+
+::-webkit-scrollbar-track {
+	background-color: hsla(200, 100%, 50%, 0.5);
+	border-width: 0;
 }
 
 body {
