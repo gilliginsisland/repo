@@ -43,7 +43,7 @@ body {
 	background-size: cover;
 }
 
-body:before {
+body::before {
 	content: '';
 	width: 0;
 	height: 100%;
