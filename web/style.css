@@ -119,13 +119,11 @@ h3, h4, h5, h6 {
 	color: #494949;
 }
 
-pre {
+code {
 	padding: 20px;
 	background: #3A3C42;
 	margin: 0 -20px 20px;
 	overflow-x:auto;
-}
-pre code {
 	font-family: "Source Code Pro";
 	font-size: 14px;
 	font-weight: 500;
