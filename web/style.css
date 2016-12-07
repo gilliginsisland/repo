@@ -135,7 +135,7 @@ code {
 	background: #3A3C42;
 	margin: 0 -20px 20px;
 	overflow-x:auto;
-	text-align: center;
+	text-align: left;
 }
 
 code span::before {
