@@ -34,6 +34,7 @@ body {
 	overflow: auto;
 	text-align: center;
 	font-family: "Source Sans Pro";
+	font-size: 14px;
 	font-weight: 600;
 	line-height: 1.5;
 	color: rgb(85, 85, 85);
@@ -51,7 +52,6 @@ body:before {
 }
 
 .wrapper {
-	font-size: 14px;
 	text-align: left;
 	display: inline-block;
 	vertical-align: middle;
