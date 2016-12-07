@@ -25,7 +25,6 @@ html {
 ::-webkit-scrollbar-track-piece,
 ::-webkit-scrollbar-corner,
 ::-webkit-resizer {
-	display: none;
 }
 
 ::-webkit-scrollbar-track {
