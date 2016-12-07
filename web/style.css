@@ -13,7 +13,7 @@ html {
 }
 
 ::-webkit-scrollbar {
-	border-radius: 80%;
+	border-radius: 10px;
 	background: transparent;
 	width: 10px;
 	height: 10px;
