@@ -48,15 +48,15 @@ Description: ohybridproxy is a mDNS/DNS hybrid-proxy which allows to exchange se
  this im.
 
 Package: plexmediaserver
-Version: 1.3.0.3059-6277334
+Version: 1.3.1.3102-a8accf1
 Architecture: amd64
 Maintainer: Plex Inc <support@plex.tv>
-Installed-Size: 218816
-Filename: pool/ubuntu/main/plexmediaserver_1.3.0.3059-6277334_amd64.deb
-Size: 103887114
-MD5sum: 7cce67c44dff11f1996481e08c7e7f3e
-SHA1: a9e24f8e946388a16a38dc655eeed55186e8dc37
-SHA256: 548b5a4fde3be3335b61eced084df03b5ac6f0b850baa3448d83d98908a00d8c
+Installed-Size: 209604
+Filename: pool/ubuntu/main/plexmediaserver_1.3.1.3102-a8accf1_amd64.deb
+Size: 101240552
+MD5sum: 55e9088691e36e525ba08f006f4ac877
+SHA1: 9596b3e4668a432bbeeb4b121abbdb8beebf7ae0
+SHA256: 39cb323a07003f9695c3ea5d64a2b1b91002aa389a3ac723dd97482c12cca2a9
 Section: video
 Priority: extra
 Homepage: https://plex.tv
