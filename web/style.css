@@ -121,7 +121,6 @@ h3, h4, h5, h6 {
 
 code {
 	display: block;
-	white-space: nowrap;
 	padding: 20px;
 	background: #3A3C42;
 	margin: 0 -20px 20px;
@@ -135,7 +134,8 @@ code {
 }
 
 code command {
-
+	display: block;
+	white-space: nowrap;
 }
 
 hr {
