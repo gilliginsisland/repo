@@ -18,10 +18,8 @@ html {
 	height: 10px;
 }
 ::-webkit-scrollbar-track {
-	background: grey;
 }
 ::-webkit-scrollbar-thumb {
-	background: black;
 }
 
 body {
