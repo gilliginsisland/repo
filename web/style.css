@@ -125,17 +125,17 @@ code {
 	background: #3A3C42;
 	margin: 0 -20px 20px;
 	overflow-x:auto;
-	font-family: "Source Code Pro";
-	font-size: 14px;
-	font-weight: 500;
-	line-height: 1.5;
-	text-shadow: none;
-	color: #f8f8f2;
 }
 
 code command {
 	display: block;
 	white-space: nowrap;
+	line-height: 1.5;
+	text-shadow: none;
+	color: #f8f8f2;
+	font-family: "Source Code Pro";
+	font-size: 14px;
+	font-weight: 500;
 }
 
 hr {
