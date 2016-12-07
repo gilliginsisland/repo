@@ -31,8 +31,7 @@ body {
 	bottom: 0;
 	margin: 0;
 	padding: 20px;
-	overflow-x: hidden;
-	overflow-y: auto;
+	overflow: auto;
 	text-align: center;
 	font-family: "Source Sans Pro";
 	font-size: 0;
