@@ -144,7 +144,8 @@ code {
 	padding: 20px;
 	background: #3A3C42;
 	margin: 0 -20px 20px;
-	overflow-x:auto;
+	overflow-x: auto;
+	overflow-x: overlay;
 }
 
 code span::before {
