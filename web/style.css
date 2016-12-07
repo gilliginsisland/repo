@@ -15,6 +15,11 @@ html {
 ::-webkit-scrollbar {
 	width: 10px;
 	height: 10px;
+	opacity: 0;
+	transition: 1s;
+}
+:hover::-webkit-scrollbar {
+	opacity: 1;
 }
 ::-webkit-scrollbar-track {
 	background: transparent;
