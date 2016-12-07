@@ -127,6 +127,10 @@ code {
 	overflow-x:auto;
 }
 
+code span::before {
+	content: '$ ';
+}
+
 code span {
 	display: block;
 	white-space: nowrap;
