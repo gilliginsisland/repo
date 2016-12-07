@@ -16,7 +16,9 @@ html {
 	width: 10px;
 	height: 10px;
 	opacity: 0;
-	transition: 1s;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+	transition: opacity .25s ease-in-out;
 }
 :hover::-webkit-scrollbar {
 	opacity: 1;
