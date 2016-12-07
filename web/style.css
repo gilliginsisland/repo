@@ -1,18 +1,15 @@
 @import url('//fonts.googleapis.com/css?family=Source+Sans+Pro|Source+Code+Pro:500');
 
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
-html, body {
+html {
+	box-sizing: border-box;
 	height: 100%;
 	width: 100%;
 	margin: 0;
+	overflow: hidden;
 }
 
-html {
-	box-sizing: border-box;
-	overflow: hidden;
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 ::-webkit-scrollbar {
