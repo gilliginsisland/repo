@@ -126,7 +126,9 @@ pre {
 	overflow-x:auto;
 }
 pre code {
-	font: 14px/1.5 "Source Code Pro";
+	font-family: "Source Code Pro";
+	font-size: 14px;
+	line-height: 1.5;
 	text-shadow: none;
 	color: #f8f8f2;
 }
