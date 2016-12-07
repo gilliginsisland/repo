@@ -52,7 +52,6 @@ body:before {
 }
 
 .wrapper {
-	text-align: left;
 	display: inline-block;
 	vertical-align: middle;
 	width: 99%;
