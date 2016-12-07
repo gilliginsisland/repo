@@ -13,13 +13,15 @@ html {
 }
 
 ::-webkit-scrollbar {
-	background: blue;
+	background: transparent;
 	width: 10px;
 	height: 10px;
 }
 ::-webkit-scrollbar-track {
+	background: grey;
 }
 ::-webkit-scrollbar-thumb {
+	background: black;
 }
 
 body {
