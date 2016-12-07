@@ -11,7 +11,6 @@ html, body {
 }
 
 html {
-	padding: 0;
 	box-sizing: border-box;
 	overflow: hidden;
 	background: #6C7989;
