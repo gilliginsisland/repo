@@ -119,12 +119,6 @@ h3, h4, h5, h6 {
 	color: #494949;
 }
 
-code, pre {
-	font: 14px/1.5 "Source Code Pro";
-	text-shadow: none;
-	color: #333;
-}
-
 pre {
 	padding: 20px;
 	background: #3A3C42;
@@ -133,6 +127,8 @@ pre {
 	overflow-x:auto;
 }
 pre code {
+	font: 14px/1.5 "Source Code Pro";
+	text-shadow: none;
 	color: #f8f8f2;
 }
 
