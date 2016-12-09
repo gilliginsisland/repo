@@ -47,21 +47,6 @@ Description: ohybridproxy is a mDNS/DNS hybrid-proxy which allows to exchange se
  http://tools.ietf.org/html/draft-cheshire-dnssd-hybrid-01 which inspired
  this im.
 
-Package: plexmediaserver
-Version: 1.3.1.3102-a8accf1
-Architecture: amd64
-Maintainer: Plex Inc <support@plex.tv>
-Installed-Size: 209604
-Filename: pool/ubuntu/main/plexmediaserver_1.3.1.3102-a8accf1_amd64.deb
-Size: 101240552
-MD5sum: 55e9088691e36e525ba08f006f4ac877
-SHA1: 9596b3e4668a432bbeeb4b121abbdb8beebf7ae0
-SHA256: 39cb323a07003f9695c3ea5d64a2b1b91002aa389a3ac723dd97482c12cca2a9
-Section: video
-Priority: extra
-Homepage: https://plex.tv
-Description: Plex organizes all of your personal media so you can easily access and enjoy it.
-
 Package: systemd-netns
 Version: 2.3
 Architecture: all
