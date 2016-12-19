@@ -48,14 +48,14 @@ Description: ohybridproxy is a mDNS/DNS hybrid-proxy which allows to exchange se
  this im.
 
 Package: systemd-netns
-Version: 2.4
+Version: 2.4-1
 Architecture: all
 Maintainer: Gil Broochian <gil@broochian.com>
 Depends: systemd, python3
-Filename: pool/ubuntu/main/systemd-netns_2.4_all.deb
-Size: 3460
-MD5sum: 2ac86417f3722959f16cc97c399b8035
-SHA1: 5ff55225757e96fb06403da22c8967092002b494
-SHA256: a71bcbc5409096160ecca076d1f8384d7dae80e86bfd459bb35b32f5219319c0
+Filename: pool/ubuntu/main/systemd-netns_2.4-1_all.deb
+Size: 3474
+MD5sum: d048a12fbd03c2b86f5ee4083f638469
+SHA1: 9264249ba83295f723f8109a45b41a48234a42d3
+SHA256: dfc4fc67f266ca384e80c76e898cc2b6cfb0fbe247cff97c01d7957a509f53e7
 Description: Service files for systemd managed network namespaces
 
