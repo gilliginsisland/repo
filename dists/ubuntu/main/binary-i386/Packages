@@ -11,14 +11,14 @@ SHA256: 36fb8a3b2934ceccaf8cda7c98eeb156572a915ccdc0afe8c25ed2de2eccb274
 Description: Allows running commands in a network namespace without being root
 
 Package: systemd-netns
-Version: 2.3
+Version: 2.4
 Architecture: all
 Maintainer: Gil Broochian <gil@broochian.com>
 Depends: systemd, python3
-Filename: pool/ubuntu/main/systemd-netns_2.3_all.deb
-Size: 3534
-MD5sum: cfe0caf1f35b2d681c99481fd9bedbd6
-SHA1: fd1edea4cea1e58ebc1cdeb146fca3ebb32cb530
-SHA256: 9e573814fc764c6c81674ce44d0002db89add84d2d88cd7afa6b18a6dbc7c03f
+Filename: pool/ubuntu/main/systemd-netns_2.4_all.deb
+Size: 3460
+MD5sum: 2ac86417f3722959f16cc97c399b8035
+SHA1: 5ff55225757e96fb06403da22c8967092002b494
+SHA256: a71bcbc5409096160ecca076d1f8384d7dae80e86bfd459bb35b32f5219319c0
 Description: Service files for systemd managed network namespaces
 
