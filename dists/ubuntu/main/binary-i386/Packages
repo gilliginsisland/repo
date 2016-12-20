@@ -17,8 +17,8 @@ Maintainer: Gil Broochian <gil@broochian.com>
 Depends: systemd, python3
 Filename: pool/ubuntu/main/systemd-netns_2.4-2_all.deb
 Size: 3446
-MD5sum: 30afc6b7e911df46c590cdc794e602fb
-SHA1: 551b899f5783dea8bb3033bc624ed9d667d54bf7
-SHA256: d8922c7c692bf59dcaa52dc838840de3906e5efd4647685558968449872b0cdf
+MD5sum: 0036eafc9fea851eeb5429dea007f4de
+SHA1: 9a446eef7ab1a1a97e77d4c13cd5bb352011f1e3
+SHA256: 2c974f900748f2489fb6cc2e06d1d3981fceab44a536833deb8f47e673824687
 Description: Service files for systemd managed network namespaces
 
