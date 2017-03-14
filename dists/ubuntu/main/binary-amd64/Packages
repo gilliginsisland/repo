@@ -53,9 +53,9 @@ Architecture: all
 Maintainer: Gil Broochian <gil@broochian.com>
 Depends: systemd, python3, util-linux
 Filename: pool/ubuntu/main/systemd-netns_3.0_all.deb
-Size: 18258
-MD5sum: ac80296d3f5a3c53ab0d93b8802e375d
-SHA1: bc57ce7034f5c9642e0b9e101174e5398941d0a7
-SHA256: 9f0f4e225f242eaf94d191909a1b09b61479c8268468e2e265eadba3a264dfec
+Size: 20174
+MD5sum: 8884980acf3652f787f6c08509118de5
+SHA1: 539b6c4818eaa799091788eb9785ccaf12cd8965
+SHA256: 07fd7d01f144056da033191e80794317fdd91cf5fdb6863d6f3b41e7b869d45a
 Description: Service files for systemd managed network namespaces
 
